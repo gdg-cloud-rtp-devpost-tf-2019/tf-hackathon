@@ -1,0 +1,147 @@
+
+What public dataset on GCP has data we can use for the virtual sensor project
+
+
+GCP - National Water Model
+
+Simulation modeling observed and forecasted streamflow in the US
+
+The data is an unknown file format for me.
+
+Here is some tools which might be able to read them.
+
+davis@twenty:~/Downloads$ dpkg-query -L netcdf-bin
+/.
+/usr
+/usr/bin
+/usr/bin/nccopy
+/usr/bin/ncdump
+/usr/bin/ncgen
+/usr/bin/ncgen3
+/usr/share
+/usr/share/doc
+/usr/share/doc/netcdf-bin
+/usr/share/doc/netcdf-bin/changelog.Debian.gz
+/usr/share/doc/netcdf-bin/changelog.gz
+/usr/share/doc/netcdf-bin/copyright
+/usr/share/man
+/usr/share/man/man1
+/usr/share/man/man1/nccopy.1.gz
+/usr/share/man/man1/ncdump.1.gz
+/usr/share/man/man1/ncgen.1.gz
+/usr/share/man/man1/ncgen3.1.gz
+
+ncdump can read the .ncdf files.  It contains station ids and readings.  Trying to find the station id's associated with 
+the Richmond, VA area I used this website
+
+https://maps.waterdata.usgs.gov/mapper/index.html
+
+These are the sensors they have
+
+
+These are on same river.  Here is the upmost one.
+Site Number: 02037000
+Site Name: JAMES RIVER AND KANAWHA CANAL NEAR RICHMOND, VA
+Site Type: Stream
+Agency: USGS
+
+Site Number: 02037500
+Site Name: JAMES RIVER NEAR RICHMOND, VA
+Site Type: Stream
+Agency: USGS
+
+Site Number: 02037618
+Site Name: JAMES RIVER AT BOULEVARD BRIDGE AT RICHMOND, VA
+Site Type: Stream
+Agency: USGS
+
+This is the last one on the river centered about Richmond.
+Site Number: 02037705
+Site Name: JAMES RIVER AT CITY LOCKS AT RICHMOND, VA
+Site Type: Stream
+Agency: USGS
+
+
+
+Site Number: 02038000
+Site Name: FALLING CREEK NEAR CHESTERFIELD, VA
+Site Type: Stream
+Agency: USGS
+
+
+Notes on fields
+https://help.waterdata.usgs.gov/output-formats#nwis_mapper
+
+
+These are in the area Jim has sensors
+A screenshot of the area is shown in pics.  Titled area-of-interest-usgs.png
+
+From North West corner to South East.
+
+Site Number: 0204288721
+Site Name: EB ELIZABETH RIVER AT RT 165 AT VIRGINIA BEACH, VA
+Site Type: Stream
+Agency: USGS
+Latitude 36°49'38",   Longitude 76°09'56"   NAD27
+Virginia Beach City, Virginia, Hydrologic Unit 02080208
+Datum of gage: 0.00 feet above   NAVD88
+
+Site Number: 0204291317
+Site Name: THALIA CREEK AT ROUTE 58 AT THALIA, VA
+Site Type: Stream
+Agency: USGS
+Latitude 36°50'35.9",   Longitude 76°07'28.1"   NAD83
+Virginia Beach City, Virginia, Hydrologic Unit 02080108
+Datum of gage: 0.00 feet above   NAVD88.
+
+
+Site Number: 0204293125
+Site Name: LONDON BRIDGE CREEK AT RT 58 AT VIRGINIA BEACH, VA
+Site Type: Stream
+Agency: USGS
+Latitude 36°50'28.1",   Longitude 76°03'25.7"   NAD83
+Virginia Beach City, Virginia, Hydrologic Unit 02080108
+Datum of gage: 0.00 feet above   NAVD88.
+
+
+Site Number: 0204295505
+Site Name: LITTLE NECK CREEK AT PINEWOOD RD AT VA BEACH, VA
+Site Type: Stream
+Agency: USGS
+Latitude 36°51'33.4",   Longitude 75°59'04.1"   NAD83
+Virginia Beach City, Virginia, Hydrologic Unit 02080108
+Datum of gage: 0.00 feet above   NAVD88.
+
+
+Site Number: 02042928
+Site Name: BYPASS CANAL AT INTL PARKWAY NEAR MAPLETON, VA
+Site Type: Stream
+Agency: USGS
+
+Site Number: 0204297575
+Site Name: LAKE RUDEE NEAR BELLS ROAD AT VIRGINIA BEACH, VA
+Site Type: Stream
+Agency: USGS
+
+Site Number: 02043155
+Site Name: WEST NECK CREEK AT DAM NECK ROAD AT MAPLETON, VA
+Site Type: Stream
+Agency: USGS
+
+Site Number: 0204288539
+Site Name: BELLS MILL CRK AT BELLS MILL RD AT CHESAPEAKE, VA
+Site Type: Stream
+Agency: USGS
+
+Site Number: 0204309906
+Site Name: CONVEYANCE CHAN AT RAMSGATE LN NR GREAT BRIDGE, VA
+Site Type: Stream
+Agency: USGS
+
+Site Number: 0204300267
+Site Name: BEGGARS BRIDGE CREEK NEAR DAWLEY CORNERS, VA
+Site Type: Stream
+Agency: USGS
+
+
+
