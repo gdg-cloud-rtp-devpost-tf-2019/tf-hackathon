@@ -171,4 +171,15 @@ Virginia Beach City, Virginia, Hydrologic Unit 03010205
 Datum of gage: 0.00 feet above   NAVD88.
 
 
+2019-04-02
+--------------
+
+Looking at google maps, the coordinates are approximately 38.850474, -76.079535
+Interesting because the coordinates above are positive for longitude
+
+Google maps uses WGS84 system.
+
+Experimentation shows that the longtitude should be a negative number.
+
+The conversion of lat/lon to different coordinate system fails. 8-(
 
