@@ -1,0 +1,1589 @@
+<!DOCTYPE html>
+<!-- saved from url=(0058)https://help.waterdata.usgs.gov/output-formats#nwis_mapper -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" xml:lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+
+    
+        <!--<base href="https://help.waterdata.usgs.gov/output-formats">--><base href="."><!--[if lt IE 7]></base><![endif]-->
+    
+
+    
+        <meta content="Available types and uses" name="description">
+
+  
+    <link rel="stylesheet" type="text/css" media="screen" href="./Output-formats—USGS-Water-Data-for-the-Nation-Help-System_files/reset-cachekey-8d2e968c3efbf6373cda549130a0c279.css">
+    <link rel="stylesheet" type="text/css" href="./Output-formats—USGS-Water-Data-for-the-Nation-Help-System_files/base-cachekey-2c616339124303c000ce2b86361ef611.css">
+    <style type="text/css" media="screen">@import url(https://help.waterdata.usgs.gov/portal_css/Sunburst%20Theme/resourceqi.portlet.TagClouds.stylesheetstagclouds-cachekey-2c7e22037a931ddbed3205cc480154db.css);</style>
+    <style type="text/css" media="screen">@import url(https://help.waterdata.usgs.gov/portal_css/Sunburst%20Theme/resourcejquery-ui-themessunburst-patch-cachekey-eacedfdf22b795ae5295c1b503f4ff8f.css);</style>
+    <link rel="stylesheet" type="text/css" media="all" href="./Output-formats—USGS-Water-Data-for-the-Nation-Help-System_files/ploneCustom-cachekey-ca6f91f89f77a1bb5c68f8dae781aaaf.css">
+
+  
+  
+    <script async="" src="./Output-formats—USGS-Water-Data-for-the-Nation-Help-System_files/analytics.js"></script><script type="text/javascript" src="./Output-formats—USGS-Water-Data-for-the-Nation-Help-System_files/resourceplone.app.jquery-cachekey-754d11653db435b687f5672556cd3da9.js"></script>
+    <script type="text/javascript" src="./Output-formats—USGS-Water-Data-for-the-Nation-Help-System_files/resourcejquery-ui.min-cachekey-c747b64f453d472794d714b7baa821fa.js"></script>
+    <script type="text/javascript" src="./Output-formats—USGS-Water-Data-for-the-Nation-Help-System_files/resourceanalytics_config-cachekey-e88276077a2188521ca33d7e9ea19118.js"></script>
+    <script type="text/javascript" src="./Output-formats—USGS-Water-Data-for-the-Nation-Help-System_files/kss-bbb-cachekey-7a564adafe1c74445a843a224638d40c.js"></script>
+
+
+<title>Output formats — USGS Water Data for the Nation Help System</title>
+        
+    
+
+
+
+    <link rel="canonical" href="https://help.waterdata.usgs.gov/output-formats">
+
+    <link rel="shortcut icon" type="image/x-icon" href="https://help.waterdata.usgs.gov/favicon.ico">
+    <link rel="apple-touch-icon" href="https://help.waterdata.usgs.gov/touch_icon.png">
+
+
+<script type="text/javascript">
+        jQuery(function($){
+            if (typeof($.datepicker) != "undefined"){
+              $.datepicker.setDefaults(
+                jQuery.extend($.datepicker.regional[''],
+                {dateFormat: 'mm/dd/yy'}));
+            }
+        });
+        </script>
+
+
+
+
+    <link rel="search" href="https://help.waterdata.usgs.gov/@@search" title="Search this site">
+
+
+
+        
+        
+        
+        
+        
+
+        <meta name="viewport" content="width=device-width, initial-scale=0.6666, maximum-scale=1.0, minimum-scale=0.6666">
+        <meta name="generator" content="Plone - http://plone.org">
+    
+<script id="_fed_an_ua_tag" type="text/javascript" src="./Output-formats—USGS-Water-Data-for-the-Nation-Help-System_files/Universal-Federated-Analytics-Min.js" defer=""></script></head>
+
+<body class="template-document_view portaltype-document site-Plone section-output-formats icons-on userrole-anonymous" dir="ltr">
+
+<div id="visual-portal-wrapper">
+
+        <div id="portal-top" class="row">
+<div class="cell width-full position-0">
+            <div id="portal-header">
+  <!-- BEGIN USGS Header Template -->
+  <div id="usgscolorband">
+    <div id="usgsbanner">
+      <div id="usgsidentifier"><a href="https://www.usgs.gov/"><img src="./Output-formats—USGS-Water-Data-for-the-Nation-Help-System_files/nwisweb_logo" alt="USGS - science for a changing world" title="U.S. Geological Survey Home Page" width="178" height="72"></a>
+
+      </div>
+      <div id="usgsccsabox">
+        <div id="usgsccsa">
+          <br><a href="https://www.usgs.gov/">USGS Home</a>
+          <br><a href="https://www.usgs.gov/ask/">Contact USGS</a>
+          <br><a href="https://www.usgs.gov/search/">Search USGS</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div id="usgstitle">
+    <p><a href="https://help.waterdata.usgs.gov/">National Water Information System: Help System</a></p>
+  </div>
+  <!-- END USGS Header Template -->
+
+<link rel="alternate" href="https://help.waterdata.usgs.gov/news/RSS" title="RSS 1.0" type="application/rss+xml">
+
+<script type="application/javascript" src="./Output-formats—USGS-Water-Data-for-the-Nation-Help-System_files/usgs-analytics.js"></script>
+
+<p class="hiddenStructure">
+  <a accesskey="2" href="https://help.waterdata.usgs.gov/output-formats#content">Skip to content.</a> |
+
+  <a accesskey="6" href="https://help.waterdata.usgs.gov/output-formats#portal-globalnav">Skip to navigation</a>
+</p>
+
+<div id="portal-personaltools-wrapper">
+
+<p class="hiddenStructure">Personal tools</p>
+
+
+
+
+
+</div>
+
+
+
+<div id="portal-searchbox">
+    <form name="searchform" action="https://help.waterdata.usgs.gov/search" id="livesearch0">
+
+        <label for="searchGadget" class="hiddenStructure">Search Site</label>
+
+        <div class="LSBox">
+        <input name="SearchableText" type="text" size="35" title="Search Site" accesskey="4" class="inputLabel" id="searchGadget" autocomplete="off">
+
+        <input class="searchButton" type="submit" value="Search">
+    <!--
+        <div class="searchSection">
+            <input id="searchbox_currentfolder_only" 
+                   class="noborder"
+                   type="checkbox" 
+                   name="path" 
+                   tal:attributes="value view/folder_path"
+                   />
+            <label for="searchbox_currentfolder_only" 
+                   i18n:translate="label_searchbox_currentfolder_only"
+                   style="cursor: pointer">
+                only in current section
+            </label>
+        </div>
+     -->
+
+        <div class="LSResult" id="LSResult" style=""><div class="LSShadow" id="LSShadow"></div></div>
+        </div>
+    
+    </form>
+
+    <div id="portal-advanced-search" class="hiddenStructure">
+        <a href="https://help.waterdata.usgs.gov/search_form" accesskey="5">
+            Advanced Search…
+        </a>
+    </div>
+
+</div>
+<!-- <a metal:define-macro="portal_logo"
+   id="portal-logo"
+   accesskey="1"
+   tal:attributes="href view/navigation_root_url"
+   i18n:domain="plone">
+    <img src="logo.png" alt=""
+        tal:replace="structure view/logo_tag" />
+</a> -->
+
+    <p class="hiddenStructure">Navigation</p>
+
+    <ul id="portal-globalnav"><li id="portaltab-index_html" class="plain"><a href="https://help.waterdata.usgs.gov/" title="">Home</a></li><li id="portaltab-news" class="plain"><a href="https://help.waterdata.usgs.gov/news" title="A chronological list of news about this site, also accessible via RSS newsfeed. You can subscribe to this news in the RSS format with your newsreader. See the link at the bottom of this page to subscribe.">News</a></li><li id="portaltab-faq" class="plain"><a href="https://help.waterdata.usgs.gov/faq" title="Frequently asked questions about understanding and interpreting USGS water data">FAQ</a></li><li id="portaltab-tutorials" class="plain"><a href="https://help.waterdata.usgs.gov/tutorials" title="Do you need help finding USGS data about your watershed? These tutorials includes step-by-step guides for the first-time users of the USGS Water Data for the Nation site, as well as refreshers for returning users. These guides represent only one way to access some of the data. ">Tutorials</a></li><li id="portaltab-codes-and-parameters" class="plain"><a href="https://help.waterdata.usgs.gov/codes-and-parameters" title="Codes contains links to a comprehensive set of codes used by this site which can be used an an authoritative reference. Parameters are 5-digit codes used to identify the constituent measured and the units of measure.">Search criteria and codes</a></li><li id="portaltab-output-formats" class="selected"><a href="https://help.waterdata.usgs.gov/output-formats" title="Available types and uses">Output formats</a></li><li id="portaltab-policies" class="plain"><a href="https://help.waterdata.usgs.gov/policies" title="">Policies</a></li><li id="portaltab-known-problems" class="plain"><a href="https://help.waterdata.usgs.gov/known-problems" title="">Known problems</a></li><li id="portaltab-contact-us" class="plain"><a href="https://help.waterdata.usgs.gov/contact-us" title="">Contact us</a></li></ul>
+
+
+
+</div>
+</div>
+        </div>
+    <div id="portal-columns" class="row">
+
+        <div id="portal-column-content" class="cell width-full position-0">
+
+            <div id="viewlet-above-content"><div id="portal-breadcrumbs">
+
+    <span id="breadcrumbs-you-are-here">You
+are here:</span>
+    <span id="breadcrumbs-home">
+        <a href="https://help.waterdata.usgs.gov/">Home</a>
+        <span class="breadcrumbSeparator">
+            /
+            
+        </span>
+    </span>
+    <span id="breadcrumbs-1" dir="ltr">
+        
+            
+            
+            <span id="breadcrumbs-current">Output formats</span>
+         
+    </span>
+
+</div>
+</div>
+
+            
+                <div class="">
+
+                    
+
+                    
+
+    <dl class="portalMessage info" id="kssPortalMessage" style="display:none">
+        <dt>Info</dt>
+        <dd></dd>
+    </dl>
+
+
+
+                    
+                        <div id="content">
+
+                            
+
+                            
+
+                             <div id="viewlet-above-content-title"></div>
+                             
+                                 
+                                 
+            
+                <h1 id="parent-fieldname-title" class="documentFirstHeading">
+                    Output formats
+                </h1>
+            
+            
+        
+                             
+                             <div id="viewlet-below-content-title">
+</div>
+
+                             
+                                 
+                                 
+            
+                <div id="parent-fieldname-description" class="documentDescription">
+                   Available types and uses
+                </div>
+            
+            
+        
+                             
+
+                             <div id="viewlet-above-content-body">
+
+</div>
+                             <div id="content-core">
+                                 
+    
+        
+        <div class="" id="parent-fieldname-text-81965c8a-ec73-4851-bb81-411ddec8ce24">
+            <h2>Output Formats</h2>
+<ul>
+<li><a class="anchor" href="https://help.waterdata.usgs.gov/output-formats#standard_nwisweb_options">Standard Options</a> 
+<ul>
+<li><a class="anchor" href="https://help.waterdata.usgs.gov/output-formats#nwis_mapper">Show sites on a map</a></li>
+<li><a class="anchor" href="https://help.waterdata.usgs.gov/output-formats#station_list">Table of sites</a></li>
+<li><a class="anchor" href="https://help.waterdata.usgs.gov/output-formats#scroll_list">Scroll list of sites</a></li>
+<li><a class="anchor" href="https://help.waterdata.usgs.gov/output-formats#brief_list">Brief descriptions</a></li>
+<li><a class="anchor" href="https://help.waterdata.usgs.gov/output-formats#sitefile_output">Site-description information</a></li>
+<li><a class="anchor" href="https://help.waterdata.usgs.gov/output-formats#rdb_station_file">Save file of sites</a></li>
+</ul>
+</li>
+<li><a class="anchor" href="https://help.waterdata.usgs.gov/output-formats#data_specific_options">Data specific options</a> 
+<ul>
+<li><a class="anchor" href="https://help.waterdata.usgs.gov/output-formats#IV_streamflow_data_options">Instantaneous-value Streamflow data options</a> 
+<ul>
+<li><a class="anchor" href="https://help.waterdata.usgs.gov/output-formats#IV_gif">Graph</a></li>
+<li><a class="anchor" href="https://help.waterdata.usgs.gov/output-formats#IV_rdb">Tab-separated data</a></li>
+</ul>
+</li>
+<li><a class="anchor" href="https://help.waterdata.usgs.gov/output-formats#site_inventory_data_options">Site inventory data options</a> 
+<ul>
+<li><a class="anchor" href="https://help.waterdata.usgs.gov/output-formats#si_station_manuscript">Detailed descriptions with links to available data for each site</a></li>
+<li><a class="anchor" href="https://help.waterdata.usgs.gov/output-formats#si_html_table">HTML table</a></li>
+<li><a class="anchor" href="https://help.waterdata.usgs.gov/output-formats#si_rdb">Tab-separated data file</a></li>
+</ul>
+</li>
+<li><a class="anchor" href="https://help.waterdata.usgs.gov/output-formats#Water_quality_samples_options">Water Quality Samples options</a> 
+<ul>
+<li><a class="anchor" href="https://help.waterdata.usgs.gov/output-formats#water_quality_samples_qw_sample_por_table">Parameter Group Period of Record table</a></li>
+<li><a class="anchor" href="https://help.waterdata.usgs.gov/output-formats#water_quality_samples_inventory">Inventory of water-quality data with retrieval</a></li>
+<li><a class="anchor" href="https://help.waterdata.usgs.gov/output-formats#water_quality_samples_inventory">Inventory of water-quality data (for printing)</a></li>
+<li><a class="anchor" href="https://help.waterdata.usgs.gov/output-formats#water_quality_samples_html_table">HTML table format</a></li>
+<li><a class="anchor" href="https://help.waterdata.usgs.gov/output-formats#water_quality_samples_rdb">Tab-separated data file</a></li>
+<li><a class="anchor" href="https://help.waterdata.usgs.gov/output-formats#water_quality_samples_output">Examples of output</a></li>
+</ul>
+</li>
+<li><a class="anchor" href="https://help.waterdata.usgs.gov/output-formats#Groundwater_site_inventory_data_options">Groundwater site inventory data options</a> 
+<ul>
+<li><a class="anchor" href="https://help.waterdata.usgs.gov/output-formats#gwsi_station_manuscript">Detailed descriptions with links to available data for each site</a></li>
+<li><a class="anchor" href="https://help.waterdata.usgs.gov/output-formats#gwsi_html_table">HTML table</a></li>
+<li><a class="anchor" href="https://help.waterdata.usgs.gov/output-formats#gwsi_rdb">Tab-separated data file</a></li>
+</ul>
+</li>
+<li><a class="anchor" href="https://help.waterdata.usgs.gov/output-formats#Groundwater_level_data_options">Groundwater level data options</a> 
+<ul>
+<li><a class="anchor" href="https://help.waterdata.usgs.gov/output-formats#gw_level_gif">Graph(s) of Groundwater level data</a></li>
+<li><a class="anchor" href="https://help.waterdata.usgs.gov/output-formats#gw_level_html">HTML table of Groundwater level data</a></li>
+<li><a class="anchor" href="https://help.waterdata.usgs.gov/output-formats#gw_level_rdb">Tab-separated data file</a></li>
+</ul>
+</li>
+<li><a class="anchor" href="https://help.waterdata.usgs.gov/output-formats#Daily-value_streamflow_data_options">Daily-value Streamflow data options</a> 
+<ul>
+<li><a class="anchor" href="https://help.waterdata.usgs.gov/output-formats#discharge_gif">Graph</a></li>
+<li><a class="anchor" href="https://help.waterdata.usgs.gov/output-formats#discharge_rdb">Tab-separated data</a></li>
+</ul>
+</li>
+<li><a class="anchor" href="https://help.waterdata.usgs.gov/output-formats#published_peak_streamflow_data">Published Peak Streamflow Data</a> 
+<ul>
+<li><a class="anchor" href="https://help.waterdata.usgs.gov/output-formats#peak_gif">Graph</a></li>
+<li><a class="anchor" href="https://help.waterdata.usgs.gov/output-formats#peak_pre">Formatted table</a></li>
+<li><a class="anchor" href="https://help.waterdata.usgs.gov/output-formats#peak_rdb">Tab-separated data</a></li>
+<li><a class="anchor" href="https://help.waterdata.usgs.gov/output-formats#peak_hn2">WATSTORE standard format</a></li>
+</ul>
+</li>
+<li><a class="anchor" href="https://help.waterdata.usgs.gov/output-formats#streamflow_measurement_data">Streamflow Measurement Data</a> 
+<ul>
+<li><a class="anchor" href="https://help.waterdata.usgs.gov/output-formats#unused_meas">Unused Measurements</a></li>
+<li><a class="anchor" href="https://help.waterdata.usgs.gov/output-formats#meas_gif">Graph</a></li>
+<li><a class="anchor" href="https://help.waterdata.usgs.gov/output-formats#meas_pre">Formatted table</a></li>
+<li><a class="anchor" href="https://help.waterdata.usgs.gov/output-formats#meas_rdb">Tab-separated data</a></li>
+</ul>
+</li>
+<li><a class="anchor" href="https://help.waterdata.usgs.gov/output-formats#Water_Use">Water Use</a> 
+<ul>
+<li><a class="anchor" href="https://help.waterdata.usgs.gov/output-formats#Water_Use_html_table">HTML table</a></li>
+<li><a class="anchor" href="https://help.waterdata.usgs.gov/output-formats#Water_Use_rdb">Tab-separated data</a></li>
+</ul>
+</li>
+<li><a class="anchor" href="https://help.waterdata.usgs.gov/output-formats#parameter_code_definitions">Parameter Code Definitions</a> 
+<ul>
+<li><a class="anchor" href="https://help.waterdata.usgs.gov/output-formats#pcd_formats">Available formats</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="https://help.waterdata.usgs.gov/output-formats#stats">Statistics options</a> 
+<ul>
+<li><a class="anchor-link" href="https://help.waterdata.usgs.gov/output-formats#poc_range">Date ranges</a></li>
+<li><a href="https://help.waterdata.usgs.gov/output-formats#partial_periods">Use incomplete data</a></li>
+<li><a class="anchor-link" href="https://help.waterdata.usgs.gov/output-formats#monthly_stat_html_table">Table of monthly means</a></li>
+<li><a class="anchor-link" href="https://help.waterdata.usgs.gov/output-formats#monthly_stat_rdb">Tab-separated data</a></li>
+</ul>
+</li>
+</ul>
+<p>&nbsp;</p>
+<hr>
+<h2><a name="standard_nwisweb_options"></a>Standard Options</h2>
+<p>&nbsp;</p>
+<h3><a name="nwis_mapper"></a>Show sites on a map:</h3>
+<div class="nwis_mapper">
+<p>This output provides a map view of the locations of sites with USGS water data that meet the specified Search Criteria. Google Maps are used to provide speed and versatility in a format that is familiar to many users. Instructions for the sites mapper&nbsp;<a href="http://wdr.water.usgs.gov/nwisgmap/instructions_sites_mapper.html">can be found here.</a></p>
+</div>
+<h3><a name="station_list"></a>Table of sites:</h3>
+<div class="station_list">
+<p>A list of Sites with their agency code, Site ID, and station name will be displayed in an HTML table. You can select to have the sites grouped by county or by hydrologic unit code. You can also sort the sites by the USGS site number or by the station name.</p>
+</div>
+<h3><a name="scroll_list"></a>Scroll list of sites:</h3>
+<blockquote>
+<div class="scroll_list">
+<p>A list of sites will be presented in a pick box, allowing you to choose multiple sites and a new output format.</p>
+</div>
+</blockquote>
+<h3><a name="brief_list"></a>Brief descriptions:</h3>
+<blockquote>
+<div class="brief_list">
+<p>A list of sites with some basic information about each site will be presented. You can then choose which sites you want more information on. Each site has basic information like this:</p>
+<table>
+<tbody>
+<tr>
+<th nowrap="nowrap">USGS 15290100 L SUSITNA R NR HOUSTON AK</th>
+</tr>
+<tr>
+<td nowrap="nowrap">
+<p>Matanuska-Susitna Borough County, Alaska<br>Hydrologic Unit Code 19020505<br>Latitude 61°37‘36", Longitude 149°48‘03" NAD27<br>Drainage area 168.00 square miles<br>Contributing drainage area square miles</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>In addition to the site information, for those searches that are used to locate data, such as streamflow or water-quality data, a table showing the dates of the first and last observation and the total number of observations is displayed.</p>
+<table>
+<tbody>
+<tr>
+<th colspan="2" nowrap="nowrap">USGS 15290100 L SUSITNA R NR HOUSTON AK</th>
+</tr>
+<tr>
+<td>Matanuska-Susitna Borough County, Alaska<br>Latitude&nbsp; 61°37‘36", Longitude&nbsp;149°48‘03" NAD27<br>This site is a Surface Water station.<br></td>
+<td>
+<table>
+<caption><b>Period of record</b></caption> 
+<tbody>
+<tr>
+<th>Begin</th><th>End</th><th>Count</th>
+</tr>
+<tr>
+<td align="center">02/12/1972</td>
+<td align="center">07/27/1983</td>
+<td align="right">4</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</blockquote>
+<h3><a name="sitefile_output"></a>Site-description information:</h3>
+<blockquote>
+<div class="sitefile_output">
+<p>Site description information allows you to select specific data fields to be included in either html table, tab separated or xml outputs.</p>
+</div>
+</blockquote>
+<h3><a name="rdb_station_file"></a>Save file of sites:</h3>
+<blockquote>
+<div class="rdb_station_file">
+<p>All sites that match your criteria will saved in a tab-separated format into a file you specify. You can then use this file on a later retrieval to get data on just the sites you want.</p>
+</div>
+</blockquote>
+<h3><a name="review"></a>Raw sitefile review (Internal):</h3>
+<blockquote>
+<div class="review">
+<p>Raw dump of all fields in the SITEFILE table for a site -- including fields not displayed to the public.</p>
+</div>
+</blockquote>
+<hr>
+<h2><a name="data_specific_options"></a>Data Specific Options</h2>
+<p>&nbsp;</p>
+<h3><a name="site_inventory_data_options"></a>Site Inventory data options</h3>
+<p><a name="site_inventory_data_station_manuscript"></a></p>
+<blockquote>
+<h4><b><a name="si_station_manuscript"></a></b>Detailed descriptions with links to available data for each site</h4>
+<blockquote>
+<div class="site_inventory_data_station_manuscript">
+<p>If Station manuscript information is available for a site, a link to the data is provided.</p>
+</div>
+</blockquote>
+<h4><b><a name="si_html_table"></a></b>HTML table</h4>
+<blockquote>
+<p>All sites that match query are presented in an HTML table. The column headers are selectable by a select box.</p>
+</blockquote>
+<h4><b><a name="si_rdb"></a></b>Tab-separated data file</h4>
+<blockquote>
+<p>All sites that match query are presented in a tab-separated data file. The column headers are selectable by a select box. A compressed format is available.&nbsp;<a href="https://help.waterdata.usgs.gov/codes-and-parameters/codes#SI" class="anchor">Explanation of output codes can be found here</a>. For Compressed file, save the file with a .gz extension.</p>
+</blockquote>
+</blockquote>
+<h3><a name="IV_streamflow_data_options"></a>Streamflow data options</h3>
+<blockquote>
+<h4><b><a name="IV_gif"></a></b>Graph</h4>
+<blockquote>
+<p>Graphical image of instantaneous value data. Data can be retrieved in tab-separated format if desired.</p>
+</blockquote>
+<h4><b><a name="IV_rdb"></a></b>Tab-delimited data file</h4>
+<blockquote>
+<p>All data that match query are presented in a tab-separated data file. The data can be in various date formats and it can be downloaded in a compressed format.</p>
+</blockquote>
+</blockquote>
+<h3><a name="Daily-value_streamflow_data_options"></a></h3>
+<blockquote>
+<h4><b><a name="discharge_gif"></a></b>Graph</h4>
+<blockquote>
+<p>Graphical image of daily value data. Data can be retrieved in tab-separated format if desired.</p>
+</blockquote>
+<h4><b><a name="discharge_rdb"></a></b>Tab-delimited data file</h4>
+<blockquote>
+<p>All data that match query are presented in a tab-separated data file. The data can be in various date formats and it can be downloaded in a compressed format.&nbsp;<a href="https://help.waterdata.usgs.gov/codes-and-parameters/codes#SW" class="anchor">Explanation of data value qualification code (dv_cd)</a>.</p>
+</blockquote>
+</blockquote>
+<h3>Daily-value Streamflow Statistics</h3>
+<blockquote>
+<h4><b><a name="Daily-value_streamflow_statistics_data_options"></a></b> Data Options</h4>
+<p>The following statistics are available for each station</p>
+<table>
+<tbody>
+<tr>
+<th>Code</th><th>Description</th>
+</tr>
+<tr>
+<td>begin_yr_dt</td>
+<td>First complete year of data</td>
+</tr>
+<tr>
+<td>end_yr_dt</td>
+<td>Last complete year of data</td>
+</tr>
+<tr>
+<td>max_mean_va</td>
+<td>Maximum daily mean value for this day</td>
+</tr>
+<tr>
+<td>min_mean_va</td>
+<td>Minimum daily mean value for this day</td>
+</tr>
+<tr>
+<td>count_nu</td>
+<td>Number of daily mean values for this day</td>
+</tr>
+<tr>
+<td>mean_va</td>
+<td>Mean of daily mean values for this day</td>
+</tr>
+<tr>
+<td>p05_va</td>
+<td>05 percentile</td>
+</tr>
+<tr>
+<td>p10_va</td>
+<td>10 percentile</td>
+</tr>
+<tr>
+<td>p15_va</td>
+<td>15 percentile</td>
+</tr>
+<tr>
+<td>p20_va</td>
+<td>20 percentile</td>
+</tr>
+<tr>
+<td>p25_va</td>
+<td>25 percentile</td>
+</tr>
+<tr>
+<td>p30_va</td>
+<td>30 percentile</td>
+</tr>
+<tr>
+<td>p35_va</td>
+<td>35 percentile</td>
+</tr>
+<tr>
+<td>p40_va</td>
+<td>40 percentile</td>
+</tr>
+<tr>
+<td>p45_va</td>
+<td>45 percentile</td>
+</tr>
+<tr>
+<td>p50_va</td>
+<td>50 percentile (median)</td>
+</tr>
+<tr>
+<td>p55_va</td>
+<td>55 percentile</td>
+</tr>
+<tr>
+<td>p60_va</td>
+<td>60 percentile</td>
+</tr>
+<tr>
+<td>p65_va</td>
+<td>65 percentile</td>
+</tr>
+<tr>
+<td>p70_va</td>
+<td>70 percentile</td>
+</tr>
+<tr>
+<td>p75_va</td>
+<td>75 percentile</td>
+</tr>
+<tr>
+<td>p80_va</td>
+<td>80 percentile</td>
+</tr>
+<tr>
+<td>p85_va</td>
+<td>85 percentile</td>
+</tr>
+<tr>
+<td>p90_va</td>
+<td>90 percentile</td>
+</tr>
+<tr>
+<td>p95_va</td>
+<td>95 percentile</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<h4><b><a name="discharge_html"></a></b>HTML</h4>
+<blockquote>
+<p>The selected statistic is shown in an HTML table. The columns are each month, and the rows are each day.</p>
+</blockquote>
+<h4><b><a name="discharge_tab_separated"></a></b>Tab-delimited data file</h4>
+<blockquote>
+<p>All data that match query are presented in a tab-separated data file. The data can be in various date formats and it can be downloaded in a compressed format.</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<h3><a name="published_peak_streamflow_data"></a>Published Peak Streamflow Data</h3>
+<blockquote>
+<h4><a name="published_peak_streamflow_data_gif"></a> <b><a name="peak_gif"></a></b>Graph</h4>
+<blockquote>
+<div class="published_peak_streamflow_data_gif">
+<p>Graphical image of peak streamflow data. Data can be obtained in other formats.</p>
+</div>
+</blockquote>
+<h4><a name="published_peak_streamflow_data_html_table"></a> <b><a name="peak_pre"></a></b>HTML</h4>
+<blockquote>
+<div class="published_peak_streamflow_data_html_table">
+<p>Data is output in an HTML table.</p>
+</div>
+</blockquote>
+<h4><a name="published_peak_streamflow_data_rdb"></a> <b><a name="peak_rdb"></a></b>Tab-delimited data file</h4>
+<blockquote>
+<div class="published_peak_streamflow_data_rdb">
+<p>All data that match query are presented in a tab-separated data file. The data can be in various date formats and it can be downloaded in a compressed format.</p>
+</div>
+</blockquote>
+<h4><a name="published_peak_streamflow_data_hn2"></a> <b><a name="peak_hn2"></a></b>WATSORE standard format</h4>
+<blockquote>
+<div class="published_peak_streamflow_data_hn2">
+<p>Data stored in this format is in a "card" format. Thus, data is in a column format and care should be taken to make sure everything is in the correct column.</p>
+</div>
+<table>
+<thead> 
+<tr>
+<th>Columns</th><th>Description</th>
+</tr>
+</thead> 
+<tbody>
+<tr>
+<td>1</td>
+<td>Card format number. Data is contained in the 3 format</td>
+</tr>
+<tr>
+<td>2-16</td>
+<td>Station number</td>
+</tr>
+<tr>
+<td>17-20</td>
+<td>Calendar year -- a 4-digit number representing the actual calendar year of the annual peak streamflow; if columns 21-22 are blank, this field is assumed to be a water year.</td>
+</tr>
+<tr>
+<td>21-22</td>
+<td>Month -- a 2-digit number representing the month of the annual peak streamflow. For example, March is coded as 03.</td>
+</tr>
+<tr>
+<td>23-24</td>
+<td>Day -- a 2-digit number in the range 01-31 representing the day of the month of the annual peak streamflow.</td>
+</tr>
+<tr>
+<td>25-31</td>
+<td>Annual peak streamflow in cubic feet per second -- the value has a decimal point, and significant digits to the right of the decimal point where needed. Whole numbers need no decimal point. Blank fields are interpreted as no data available.</td>
+</tr>
+<tr>
+<td>32-43</td>
+<td><a name="pk_flow_qual_codes"></a> -- This field contains 1-column fields in which from none to 12 codes can be used. There are a total of 14 single- character codes presently available.</td>
+</tr>
+<tr>
+<td>44-51</td>
+<td>Gage height associated with annual peak streamflow -- the value is punched with a decimal point, and significant digits to the right of the decimal point where needed. Whole numbers need no decimal point. Blank fields are interpreted as no data available.</td>
+</tr>
+<tr>
+<td>52-55</td>
+<td><a name="pk_gh_qual_codes_1"></a> -- four 1-column fields in which none to 4 qualification codes can be used. There are a total of 6 single-character codes presently available.</td>
+</tr>
+<tr>
+<td>56-59</td>
+<td>"Highest since" year -- a 4-digit number representing the calendar year after which the given peak streamflow (cols. 25-31) is known to be the highest. This year is determined from historic newspaper accounts, local information, or other sources.</td>
+</tr>
+<tr>
+<td>60-75</td>
+<td>Annual peak gage height information. These columns contain four fields for the annual peak gage height, to be coded if the maximum gage height for the water year is not that associated with the maximum streamflow.</td>
+</tr>
+<tr>
+<td>76-80</td>
+<td>Blank.</td>
+</tr>
+</tbody>
+</table>
+<p>Definitions and terms of peak output</p>
+<table>
+<thead> 
+<tr>
+<th>Data Element</th><th>Description</th>
+</tr>
+</thead> 
+<tbody>
+<tr>
+<td>Peak flow</td>
+<td>The maximum streamflow value for the year.</td>
+</tr>
+<tr>
+<td>Gage height</td>
+<td>Gage height for the maximum streamflow.</td>
+</tr>
+<tr>
+<td><a name="pk_gh_qual_codes_2"></a></td>
+<td><b>1</b> - gage height affected by backwater<br><b>2</b> - gage height not the maximum for the year<b>*</b><br><b>3</b> - gage height at different site and(or) datum<br><b>4</b> - gage height below minimum recordable elevation<br><b>5</b> - gage height is an estimate<br><b>6</b> - gage datum changed during this year<br><b>*</b> If code 2 is given here, there should be date and data entries for the maximum annual gage height.</td>
+</tr>
+<tr>
+<td><a name="pk_flow_qual_codes_1"></a></td>
+<td><b>1</b> - streamflow is a maximum daily average<br><b>2</b> - streamflow is an estimate<br><b>3</b> - streamflow affected by dam failure<br><b>4</b> - streamflow less than indicated value, which is minimum recordable streamflow at this site*<br><b>5</b> - streamflow affected to unknown degree by regulation or diversion**<br><b>6</b> - streamflow affected by regulation or diversion**<br><b>7</b> - streamflow is a historic peak***<br><b>8</b> - streamflow actually greater than indicated value<br><b>9</b> - streamflow due to snowmelt, hurricane, ice-jam or debris dam breakup<br><b>A</b> - year of occurrence is unknown or not exact<br><b>B</b> - month or day of occurrence is unknown or not exact<br><b>C</b> - all or part of the record affected by urbanization, mining, agricultural changes, channelization, or others<br><b>D</b> - base streamflow changed during this year<br><b>E</b> - only annual maximum peak available for this year<br><b>*</b> Code 4 cannot occur simultaneously with codes 1, 2, 3, 7, or 8.<br><b>**</b>Codes 5 and 6 cannot occur simultaneously.<br><b>***</b>Code 7 should indicate that the value for the particular year is a historic peak and the particular year occurred before or after the systematic record, or during a break in the systematic record.</td>
+</tr>
+<tr>
+<td>Highest since year</td>
+<td>Peak streamflow reported is the highest since this year.</td>
+</tr>
+<tr>
+<td>Annual peak stage</td>
+<td>Maximum stage for the water year.</td>
+</tr>
+<tr>
+<td>Peak stage month</td>
+<td>Month of peak stage.</td>
+</tr>
+<tr>
+<td>Peak stage day</td>
+<td>Day of peak stage.</td>
+</tr>
+<tr>
+<td><a name="pk_stage_qual_codes"></a></td>
+<td><b>1</b> - gage height affected by backwater.<br><b>3</b>- gage height at different site and(or) datum<br><b>5</b>- gage height is an estimate.<br><b>6</b> - gage datum changed during this year<br></td>
+</tr>
+<tr>
+<td>Partial duration peak streamflow(s)</td>
+<td>Each peak streamflow less than annual maximum peak streamflow but higher than base streamflow in Site File</td>
+</tr>
+<tr>
+<td>Partial duration peak time(s)</td>
+<td>Time of each partial duration peak streamflow.</td>
+</tr>
+<tr>
+<td>Partial duration peak stage(s)</td>
+<td>Each peak stage less than annual maximum stage.</td>
+</tr>
+<tr>
+<td><a name="pk_partial_stage_qual_codes"></a></td>
+<td><b>1</b> - gage height due to backwater<br><b>3</b> - gage height at different site and(or) datum<br><b>4</b> - gage height below minimum recordable elevation<br><b>5</b> - gage height is an estimate<br><b>6</b> - gage datum changed during this year.</td>
+</tr>
+<tr>
+<td><a name="pk_partial_flow_qual_codes"></a></td>
+<td><b>1</b> - streamflow is a maximum daily average<br><b>2</b> - streamflow is an estimate<br><b>3</b> - streamflow affected by dam failure<br><b>4</b> - streamflow less than indicated value, which is minimum recordable streamflow at this site<br><b>5</b> - streamflow affected to unknown degree by regulation or diversion<br><b>6</b> - streamflow affected by regulation or diversion<br><b>7</b> - streamflow is a historic peak<br><b>8</b> - streamflow actually greater than indicated value<br><b>9</b> - streamflow due to snowmelt, hurricane, ice-jam, or debris dam breakup<br><b>A</b> - year of occurrence is unknown or not exact<br><b>B</b> - month or day of occurrence is unknown or not exact<br><b>C</b> - all or part of the record affected by urbanization, mining, agricultural changes,channelization, or others<br><b>D</b> - base streamflow changed during this year<br><b>E</b> - only annual maximum peak available for this year</td>
+</tr>
+</tbody>
+</table>
+</blockquote>
+</blockquote>
+<h3><a name="streamflow_measurement_data"></a>Streamflow Measurement Data</h3>
+<blockquote>
+<h4><b><a name="unused_meas"></a></b>Unused Measurements</h4>
+<blockquote>
+<p>Under certain circumstances, a hydrographer may call a field discharge measurement unused. Reasons could include instrument failure, inability to complete the discharge measurement, or the presence of a second measurement made at the same condition on the same day (known as a check measurement). The existence of an unused measurement is shown in the display so as to not leave a gap in the measurement numbering, but the details of the measurement are left blank. Please contact the local water science center for more information on a particular unused measurement.</p>
+</blockquote>
+<h4><b><a name="meas_gif"></a></b> <b><a name="streamflow_measurement_data_gif"></a></b>Graph</h4>
+<blockquote>
+<div class="streamflow_measurement_data_gif">
+<p>Graphical image of streamflow measurement data. Data can be obtained in other formats.</p>
+</div>
+</blockquote>
+<h4><b><a name="meas_pre"></a></b> <b><a name="streamflow_measurement_data_html_table"></a></b>Formatted table</h4>
+<blockquote>
+<div class="streamflow_measurement_data_html_table">
+<p>Data is output in an HTML table.</p>
+</div>
+</blockquote>
+<h4><b><a name="meas_rdb"></a> </b> <b><a name="streamflow_measurement_data_rdb"></a></b>Tab-separated data</h4>
+<blockquote>
+<div class="streamflow_measurement_data_rdb">
+<p>All data that match query are presented in a tab-separated data file. The data can be in various date formats and it can be downloaded in a compressed format. The tab-separated output file column names and definitions are shown in the following table.</p>
+</div>
+<table>
+<tbody>
+<tr>
+<td><b>Tab-separated Output Column Name</b></td>
+<td><b>Formatted Table Output Column Name</b></td>
+<td><b>Description</b></td>
+<td><b>Link to additional Information</b></td>
+</tr>
+<tr>
+<td>agency_cd</td>
+<td>Not Included</td>
+<td>agency code</td>
+<td><a href="https://help.waterdata.usgs.gov/codes-and-parameters/codes#agency_cd">Possible code values</a></td>
+</tr>
+<tr>
+<td>site_no</td>
+<td>Not Included</td>
+<td>site number</td>
+<td></td>
+</tr>
+<tr>
+<td>measurement_nu</td>
+<td>Meas.Number</td>
+<td>measurement number</td>
+<td></td>
+</tr>
+<tr>
+<td>measurement_dt</td>
+<td>Date/Time</td>
+<td>date of measurement (format = MMDDYYYY or Month/Day/Year. The user has options for the data output format)</td>
+<td></td>
+</tr>
+<tr>
+<td>tz_cd</td>
+<td>Time Zone Codes</td>
+<td>Time zone offset. An ANSI SQL/92 time zone offset string. Some examples are '-07:00' (Eastern), '+02:00' (Eastern Europe), and '+03:30' (India).</td>
+<td><a href="https://help.waterdata.usgs.gov/codes-and-parameters/codes#tz">Possible code values</a></td>
+</tr>
+<tr>
+<td>q_meas_used_fg</td>
+<td>Measurement used?</td>
+<td>Flag indicates if the discharge measurement is marked used.</td>
+<td></td>
+</tr>
+<tr>
+</tr>
+<tr>
+<td>party_nm</td>
+<td>Who</td>
+<td>an indication of who made the measurement and is usually populated with a pair of initials separated with a slash</td>
+<td></td>
+</tr>
+<tr>
+<td>site_visit_coll_agency_cd</td>
+<td>Agency</td>
+<td>What agency made the measurement at the site visit</td>
+<td><br></td>
+</tr>
+<tr>
+<td>discharge_va</td>
+<td>Streamflow</td>
+<td>the computed discharge in cubic feet per second (cfs)</td>
+<td></td>
+</tr>
+<tr>
+<td>gage_height_va</td>
+<td>Gage Height</td>
+<td>gage height as shown on the inside staff gage at the site or read off the recorder inside the gage house in feet</td>
+<td></td>
+</tr>
+<tr>
+<td>gage_va_change</td>
+<td>GH Change</td>
+<td>The amount the gage height changed while the measurement was being made in feet</td>
+<td></td>
+</tr>
+<tr>
+<td>gage_va_time</td>
+<td>Meas. Duration</td>
+<td>The amount of time elapsed while the measurement was being made in decimal hours</td>
+<td></td>
+</tr>
+<tr>
+<td>measured_rating_diff</td>
+<td>Meas.Rated</td>
+<td>measurement rating codes that denote the relative quality of the measurement</td>
+<td><a href="https://help.waterdata.usgs.gov/codes-and-parameters/codes#rated">Possible code values</a></td>
+</tr>
+<tr>
+<td>control_type_cd</td>
+<td>Control</td>
+<td>condition of the rating control at the time of the measurement</td>
+<td><a href="https://help.waterdata.usgs.gov/codes-and-parameters/codes#control_cd">Possible code values</a></td>
+</tr>
+<tr>
+<td>discharge_cd</td>
+<td>Flow Adjust. Code</td>
+<td>The adjustment code for the measured discharge</td>
+<td><a href="https://help.waterdata.usgs.gov/codes-and-parameters/codes#discharge_cd">Possible code values</a></td>
+</tr>
+<tr>
+<td>chan_nu</td>
+<td>Channel Number</td>
+<td>The channel number</td>
+<td></td>
+</tr>
+<tr>
+<td>chan_name</td>
+<td>Channel Name</td>
+<td>The channel name</td>
+<td></td>
+</tr>
+<tr>
+<td>meas_type</td>
+<td>Measurement Type</td>
+<td>The channel measurement type</td>
+<td><a href="https://help.waterdata.usgs.gov/codes-and-parameters/codes#meas_type">Possible code values</a></td>
+</tr>
+<tr>
+<td>streamflow_method</td>
+<td>Streamflow Method</td>
+<td>The channel discharge measurement method</td>
+<td><a href="https://help.waterdata.usgs.gov/codes-and-parameters/codes#streamflow_method">Possible code values</a></td>
+</tr>
+<tr>
+<td>velocity_method</td>
+<td>Velocity Method</td>
+<td>The channel velocity measurement method</td>
+<td><a href="https://help.waterdata.usgs.gov/codes-and-parameters/codes#velocity_method">Possible code values</a></td>
+</tr>
+<tr>
+<td>chan_discharge</td>
+<td>Channel Flow</td>
+<td>The channel discharge in cubic feet per second</td>
+<td></td>
+</tr>
+<tr>
+<td>chan_width</td>
+<td>Channel Width</td>
+<td>The channel width in feet</td>
+<td></td>
+</tr>
+<tr>
+<td>chan_velocity</td>
+<td>Channel Velocity</td>
+<td>The mean velocity in feet per second</td>
+<td></td>
+</tr>
+<tr>
+<td>chan_area</td>
+<td>Channel Area</td>
+<td>The channel area in square feet</td>
+<td></td>
+</tr>
+<tr>
+<td>chan_stability</td>
+<td>Channel Stability</td>
+<td>The stability of the channel material</td>
+<td><a href="https://help.waterdata.usgs.gov/codes-and-parameters/codes#chan_stability">Possible code values</a></td>
+</tr>
+<tr>
+<td>chan_material</td>
+<td>Channel Material</td>
+<td>The channel material</td>
+<td><a href="https://help.waterdata.usgs.gov/codes-and-parameters/codes#chan_material">Possible code values</a></td>
+</tr>
+<tr>
+<td>chan_evenness</td>
+<td>Channel Evenness</td>
+<td>The channel evenness from bank to bank</td>
+<td><a href="https://help.waterdata.usgs.gov/codes-and-parameters/codes#chan_evenness">Possible code values</a></td>
+</tr>
+<tr>
+<td>long_vel_desc</td>
+<td>Long. Vel. Desc.</td>
+<td>The longitudinal velocity description</td>
+<td><a href="https://help.waterdata.usgs.gov/codes-and-parameters/codes#long_vel_desc">Possible code values</a></td>
+</tr>
+<tr>
+<td>horz_vel_desc</td>
+<td>Horz. Vel. Desc.</td>
+<td>The horizontal velocity description</td>
+<td><a href="https://help.waterdata.usgs.gov/codes-and-parameters/codes#horz_vel_desc">Possible code values</a></td>
+</tr>
+<tr>
+<td>vert_vel_desc</td>
+<td>Vert. Vel. Desc.</td>
+<td>The vertical velocity description</td>
+<td><a href="https://help.waterdata.usgs.gov/codes-and-parameters/codes#vert_vel_desc">Possible code values</a></td>
+</tr>
+<tr>
+<td>chan_loc_cd</td>
+<td>Channel Loc. Code</td>
+<td>The channel location code</td>
+<td><a href="https://help.waterdata.usgs.gov/codes-and-parameters/codes#chan_loc_cd">Possible code values</a></td>
+</tr>
+<tr>
+<td>chan_loc_dist</td>
+<td>Channel Loc. Dist.</td>
+<td>The channel location distance</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</blockquote>
+</blockquote>
+<h3><a name="Groundwater_site_inventory_data_options"></a>Site inventory data options</h3>
+<blockquote>
+<h4><b><a name="gwsi_station_manuscript"></a></b>Station manuscript</h4>
+<blockquote>
+<p>Station manuscript information. If data is available for a site, a link to the data is available.</p>
+</blockquote>
+<h4><b><a name="gwsi_html_table"></a></b>HTML</h4>
+<blockquote>
+<p>All sites that match query are presented in an HTML table. The column headers are selectable by a select box.</p>
+</blockquote>
+<h4><b><a name="gwsi_rdb"></a></b>Tab-separated data</h4>
+<blockquote>
+<p>All sites that match query are presented in an HTML table. The column headers are selectable by a select box. A compressed format is available.</p>
+</blockquote>
+</blockquote>
+<h3><a name="Groundwater_level_data_options"></a>Groundwater level data options</h3>
+<blockquote>
+<h4><b><a name="gw_level_gif"></a></b> <b><a name="groundwater_level_data_gif"></a></b>Graph</h4>
+<blockquote>
+<div class="groundwater_level_data_gif">
+<p>Groundwater level data is presented in a gif image.</p>
+</div>
+</blockquote>
+<h4><b><a name="gw_level_html"></a></b> <b><a name="groundwater_level_data_html_table"></a></b>HTML</h4>
+<blockquote>
+<div class="groundwater_level_data_html_table">
+<p>Groundwater level data is presented in an HTML table.</p>
+</div>
+<ul>
+<li>Explanation of attribute sl_lev_va - The water level at the site referenced to the specific vertical datum, in feet above the specific vertical datum. Precision can be carried to two decimal places. If the water level is below the referenced vertical datum, the value will be preceded with a minus sign (-). If the site is being pumped, and a head or water level can be determined, a site status code of P and the head or water level will be entered. When a water level referenced to a vertical datum cannot be measured because the site is flowing or pumping and the head is not known, the site is dry, the site is affected by ice, there is an obstruction, the measurement has been discontinued, or the well was destroyed, the water-level field will be left blank and an appropriate site status for water level code will have been recorded. Water Level Referenced to Vertical Datum is conditionally mandatory dependent on the site status entered for the water level.</li>
+<li>Explanation of attribute sl_datum_cd domain - The only vertical datums that can be converted on output are NGVD29 (National Geodetic Vertical Datum of 1929) and NAVD88 (North American Vertical Datum of 1988). NWIS uses the North American Vertical Datum Conversions (VERTCON) of the National Geodetic Survey to convert from NGVD29 to NAVD88 or vice-versa. Conversions to or from other vertical datums are not available.</li>
+</ul>
+<blockquote>
+<table>
+<tbody>
+<tr>
+<td><b>Code</b></td>
+<td><b>Name</b></td>
+<td><b>Explanation</b></td>
+</tr>
+<tr>
+<td>NGVD29</td>
+<td>V Datum of 1929</td>
+<td>National Geodetic Vertical Datum of 1929</td>
+</tr>
+<tr>
+<td>NAVD88</td>
+<td>V Datum of 1988</td>
+<td>North American Vertical Datum of 1988</td>
+</tr>
+<tr>
+<td>OLDAK</td>
+<td>Old Alaska</td>
+<td>Old Alaska (Mainland) and Aleutian Island Datum</td>
+</tr>
+<tr>
+<td>OLDPR</td>
+<td>Old PR &amp; VI</td>
+<td>Old Puerto Rico and Virgin Island Datum</td>
+</tr>
+<tr>
+<td>HILOCAL</td>
+<td>Hawaii Local</td>
+<td>Local Hawaiian Datum</td>
+</tr>
+<tr>
+<td>GUVD04</td>
+<td>Guam Datum</td>
+<td>Guam Vertical Datum of 2004</td>
+</tr>
+<tr>
+<td>ASVD02</td>
+<td>Am Samoa Datum</td>
+<td>American Samoa Vertical Datum of 2002</td>
+</tr>
+<tr>
+<td>NMVD03</td>
+<td>N Marianas Datum</td>
+<td>Northern Marianas Vertical Datum of 2003</td>
+</tr>
+<tr>
+<td>TIDELOCAL</td>
+<td>Tidal Local</td>
+<td>Local Tidal Datum</td>
+</tr>
+<tr>
+<td>COE1912</td>
+<td>COE Datum 1912</td>
+<td>U.S. Corps of Engineers datum adjustment 1912</td>
+</tr>
+<tr>
+<td>IGLD</td>
+<td>Gr Lakes Datum</td>
+<td>International Great Lakes Datum</td>
+</tr>
+<tr>
+<td>ASLOCAL</td>
+<td>*Am Samoa Local</td>
+<td>Local American Samoa Datum</td>
+</tr>
+<tr>
+<td>GULOCAL</td>
+<td>*Guam Local</td>
+<td>Local Guam Datum</td>
+</tr>
+</tbody>
+</table>
+</blockquote>
+</blockquote>
+<h4><b><a name="gw_level_rdb"></a></b> <b><a name="groundwater_level_data_rdb"></a></b>Tab-separated data</h4>
+<blockquote>
+<div class="groundwater_level_data_rdb">
+<p>Groundwater data is presented in a tab-separated data file. The data can be in various date formats and it can be downloaded in a compressed format.</p>
+</div>
+</blockquote>
+</blockquote>
+<h3><a name="Water_quality_samples_options"></a>Water Quality Sample options</h3>
+<blockquote><b><a name="water_quality_samples_qw_sample_por_table"></a></b>
+<blockquote>
+<div class="water_quality_samples_qw_sample_por_table">
+<p>This table summarizes what data are available for a group of related parameters for each selected site.</p>
+</div>
+</blockquote>
+<h4><b><a name="qw_parms_included"></a></b>Restricting by date range</h4>
+<blockquote>
+<p>The output of data may be restricted to a specific date range. Leaving this field blank retrieves all available samples.</p>
+<a name="tz_output"></a>
+<div class="tz_output">A time zone datum is associated with each sample date. You may either choose to view the stored time datum for each sample or you may request that all sample times be converted to the Coordinated Universal Time (UTC) datum.</div>
+<div class="tz_output"></div>
+<div class="tz_output"></div>
+</blockquote>
+<h4><br> <b><a name="qw_search_pm_value"></a></b>Restricting by value</h4>
+<blockquote>
+<div class="qw_search_pm_value">
+<p>Search one parameter code's result value based on greater than, less than, greater than or equal to, less than or equal to, or equal to.</p>
+<p>A complete list of parameter codes, associated groupings <a href="http://waterdata.usgs.gov/nwis/pmcodes/">can be found here.</a></p>
+</div>
+</blockquote>
+<h4><a name="qw_date_retrieval"></a></h4>
+<blockquote>
+<div class="Water_quality_samples_options">
+<p>If a list of sites was found by requesting sites that include one or more samples using a list of selected requested parameter codes, then output of samples for these sites may be requested using the same list of parameter codes. After the list of sites has been retrieved and listed in one of the output of sites formats, use the back button on your browser. Then select "Only samples that include site selection parameter (Count: xx)". The count value "xx" lists the number of parameter codes you previously requested. Choose the output format (table of data, inventory, tab-separated data) and submit.</p>
+<p>To retrieve all samples and results for the period of record for each site found in the site selection step, choose "All samples and all parameters".</p>
+<p>To select samples and results that contain one or more parameters from a range of parameter codes entered, choose 'Samples that include one or more of these parameters' and enter a range of parameter codes in the box below. Example of format: 00001-00200. The maximum number of parameter codes that will be retrieved is 200.</p>
+<p>A complete list of parameter codes, associated groupings&nbsp;<a href="http://waterdata.usgs.gov/nwis/pmcodes/">can be found here.</a></p>
+</div>
+</blockquote>
+<h4><a name="water_quality_samples_html_table"></a></h4>
+<blockquote>
+<div class="water_quality_samples_html_table">
+<p>Water-quality sample data are presented in an HTML table, with one sample per row. Two output options determine the contents of the output:</p>
+<ul>
+<li><b>default attributes</b>
+<p>Default attributes include limited sample-level information and all water-quality results.</p>
+</li>
+<li><b>expanded attributes</b>
+<p>Expanded attributes include an expanded list of sample-level attributes and all water-quality results.</p>
+</li>
+</ul>
+</div>
+</blockquote>
+<h4><a name="water_quality_samples_rdb_inventory"></a> <b><a name="water_quality_samples_inventory"></a></b>Inventory of water-quality data</h4>
+<blockquote>
+<div class="water_quality_samples_inventory">
+<div class="inventory">
+<div class="water_quality_samples_rdb_inventory">A summary of all parameters available for each site is listed and includes the number of available results for each parameter and the date range of data for that parameter.</div>
+</div>
+Two output options are available:                                                                
+<ul>
+<li> <b><a name="qw_sample_inventory"></a>for printing</b>
+<p>This format can be used to print a report using your browser print options.</p>
+</li>
+<li><b>with retrieval</b>
+<p>Specific parameters from this summary may be selected for subsequent retrieval of those selected parameters. All output formats are available.</p>
+</li>
+</ul>
+</div>
+</blockquote>
+<h4><b><a name="water_quality_samples_rdb"></a></b>Tab-delimited file</h4>
+<blockquote>
+<div class="water_quality_samples_rdb">
+<p>There are multiple output formats available, each with multiple date format options. These files may be viewed in your browser or can be written to your computer desktop. File output can be requested in an uncompressed or compressed format ("zipped"). Output formats available are:</p>
+<ul>
+<li><b>One sample per row with remark codes combined with values</b>
+<p>Water-quality sample data are presented in a tab-separated data file. Each row in the file represents one sample. Remark codes may be associated with a result and this code is included with the result, if present. You may choose to include either a default list of attributes or a more complete, expanded list of attributes.</p>
+</li>
+<li><b>One sample per row with tab-delimiter for remark codes</b>
+<p>Water-quality sample data are presented in a tab-separated data file. Each row in the file represents one sample. Remark codes are delimited from the results for each parameter code using a tab delimiter. You may choose to include either a default list of attributes or a more complete, expanded list of attributes.</p>
+</li>
+<li><b>One result per row</b>
+<p>Water-quality sample data are presented in a tab-separated data file. Each row in the file represents one result (parameter). Each sample is typically represented by many result rows. You may choose to include either a default list of attributes or a more complete, expanded list of attributes.</p>
+</li>
+</ul>
+</div>
+</blockquote>
+<h4><b><a name="water_quality_samples_output"></a></b>Water-quality samples output</h4>
+<blockquote>
+<p>Output-column changes for water-quality results where each row represents one measurement, specified by URL argument: "&amp;qw_sample_wide=0", are summarized in the table below.</p>
+<hr>
+<table>
+<tbody>
+<tr>
+<td><span>Previous version</span></td>
+<td><span>New version</span></td>
+</tr>
+<tr>
+<td>agency_cd</td>
+<td>agency_cd</td>
+</tr>
+<tr>
+<td>site_no</td>
+<td>site_no</td>
+</tr>
+<tr>
+<td>sample_dt</td>
+<td>sample_dt</td>
+</tr>
+<tr>
+<td>sample_tm</td>
+<td>sample_tm</td>
+</tr>
+<tr>
+<td>--</td>
+<td>sample_end_dt</td>
+</tr>
+<tr>
+<td>--</td>
+<td>sample_end_tm</td>
+</tr>
+<tr>
+<td>--</td>
+<td>sample_start_time_datum_cd</td>
+</tr>
+<tr>
+<td>--</td>
+<td>tm_datum_rlbty_cd</td>
+</tr>
+<tr>
+<td>coll_ent_cd</td>
+<td>coll_ent_cd</td>
+</tr>
+<tr>
+<td>medium_cd</td>
+<td>medium_cd</td>
+</tr>
+<tr>
+<td>--</td>
+<td>tu_id</td>
+</tr>
+<tr>
+<td>--</td>
+<td>body_part_id</td>
+</tr>
+<tr>
+<td>parameter_cd</td>
+<td>parm_cd (column name changed)</td>
+</tr>
+<tr>
+<td>remark_cd</td>
+<td>remark_cd</td>
+</tr>
+<tr>
+<td>result_va</td>
+<td>result_va</td>
+</tr>
+<tr>
+<td>--</td>
+<td>val_qual_tx</td>
+</tr>
+<tr>
+<td>meth_cd</td>
+<td>meth_cd</td>
+</tr>
+<tr>
+<td>anl_stat_cd</td>
+<td>--</td>
+</tr>
+<tr>
+<td>anl_src_cd</td>
+<td>--</td>
+</tr>
+<tr>
+<td>hyd_cond_cd</td>
+<td>--</td>
+</tr>
+<tr>
+<td>samp_type_cd</td>
+<td>--</td>
+</tr>
+<tr>
+<td>hyd_event_cd</td>
+<td>--</td>
+</tr>
+<tr>
+<td>--</td>
+<td>dqi_cd</td>
+</tr>
+<tr>
+<td>--</td>
+<td>rpt_lev_va</td>
+</tr>
+<tr>
+<td>--</td>
+<td>rpt_lev_cd</td>
+</tr>
+<tr>
+<td>--</td>
+<td>lab_std_va</td>
+</tr>
+<tr>
+<td>anl_ent_cd</td>
+<td>anl_ent_cd</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p>Output-column changes for retrieval of water-quality results where each row represents one sample, specified by URL argument: "&amp;qw_sample_wide=wide", are summarized in the table below.</p>
+<hr>
+<table>
+<tbody>
+<tr>
+<td><span>Previous version</span></td>
+<td><span>New version</span></td>
+</tr>
+<tr>
+<td>agency_cd</td>
+<td>agency_cd</td>
+</tr>
+<tr>
+<td>site_no</td>
+<td>site_no</td>
+</tr>
+<tr>
+<td>sample_dt</td>
+<td>sample_dt</td>
+</tr>
+<tr>
+<td>sample_tm</td>
+<td>sample_tm</td>
+</tr>
+<tr>
+<td>--</td>
+<td>sample_end_dt</td>
+</tr>
+<tr>
+<td>--</td>
+<td>sample_end_tm</td>
+</tr>
+<tr>
+<td>--</td>
+<td>sample_start_time_datum_cd</td>
+</tr>
+<tr>
+<td>--</td>
+<td>tm_datum_rlbty_cd</td>
+</tr>
+<tr>
+<td>--</td>
+<td>tu_id</td>
+</tr>
+<tr>
+<td>--</td>
+<td>body_part_id</td>
+</tr>
+<tr>
+<td>coll_ent_cd</td>
+<td>coll_ent_cd</td>
+</tr>
+<tr>
+<td>medium_cd</td>
+<td>medium_cd</td>
+</tr>
+<tr>
+<td>p00001</td>
+<td>p00001</td>
+</tr>
+<tr>
+<td>p00002</td>
+<td>p00002</td>
+</tr>
+<tr>
+<td>p00003</td>
+<td>p00003</td>
+</tr>
+<tr>
+<td>...</td>
+<td>...</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p>Additional columns can be obtained in either the sample-based or the result-based layout of water-quality data by specifying the URL argument: "&amp;rdb_qw_attributes=expanded". Information about the expanded attributes is listed in a table&nbsp;<a href="http://waterdata.usgs.gov/nwis/news?Access=0">here</a>. Retrieved date and time previously have been expressed in the local time zone of the sample collector, and continue to be expressed in local time by default. The expression of date and time can be converted to Universal Coordinated Time using the URL argument: "&amp;TZoutput=inUTC".<b>PLEASE Note: The use of UTC element is only available in Water Quality Data output.</b></p>
+</blockquote>
+</blockquote>
+<h3><a name="parameter_code_definitions"></a>Parameter Code Definitions</h3>
+<h4><a name="pcd_formats"></a>Available Formats</h4>
+<blockquote><dl> <dt><span class="term"> <a name="html_table"></a> </span><b>HTML</b></dt><dd>All parameter codes that match query are presented in a HTML table.</dd></dl><dl> <dt><span class="term"> <a name="rdb"></a> </span><b>Tab-separated data file (display in browser)</b></dt><dd>All parameter codes that match query are presented in a tab-separated data file.</dd></dl><dl> <dt><span class="term"> <a name="rdb_gz"></a> </span><b>Tab-separated data file (compressed)</b></dt><dd>All parameter codes that match query are presented in a compressed tab-separated data file. gunzip or winzip programs will be able to uncompress it</dd></dl><dl> <dt><span class="term"> <a name="rdb_file"></a> </span><b>Tab-separated data file (uncompressed)</b></dt><dd>All parameter codes that match query are presented in a tab-separated data file and you are prompted to save it to your hard drive</dd></dl></blockquote>
+<h3><a name="Water_Use"></a>Water Use</h3>
+<h4>Additional Links:</h4>
+<ul>
+<li><a href="http://water.usgs.gov/watuse/">http://water.usgs.gov/watuse/</a></li>
+<li><a href="http://water.usgs.gov/watuse/wuglossary.html">http://water.usgs.gov/watuse/wuglossary.html</a></li>
+<li><a href="http://help.waterdata.usgs.gov/faq/additional-background">http://help.waterdata.usgs.gov/faq/additional-background</a></li>
+</ul>
+<h4><b><a name="Water_Use_html_table"></a></b>HTML</h4>
+<blockquote>
+<div class="Water_Use_html_table">
+<p>National table: Sortable HTML chart with years across the horizontal axis (columns) and categories on the vertical axis including legend.</p>
+<p>State table: Sortable HTML chart with categories across the horizontal axis (columns) and state/county/years on the vertical axis including legend.</p>
+<p>This <a href="http://water.usgs.gov/watuse/WU-Category-Changes.html">chart</a> provides a conceptual picture of the changes in water-use categories between compilations.</p>
+</div>
+</blockquote>
+<h4><b><a name="Water_Use_rdb"></a></b>Tab-separated data</h4>
+<blockquote>
+<div class="Water_Use_rdb">
+<p>National table: Tab-separated table with years across the horizontal axis (columns) and categories on the vertical axis including legend.</p>
+<p>State table: Tab-separated table with categories across the horizontal axis (columns) and state/county/years on the vertical axis including legend.</p>
+<p>This <a href="http://water.usgs.gov/watuse/WU-Category-Changes.html">chart</a> provides a conceptual picture of the changes in water-use categories between compilations.</p>
+</div>
+</blockquote>
+<hr>
+<h2><a name="stats"></a>Statistics</h2>
+<h3><a name="poc_range"></a>Date ranges</h3>
+<div class="poc_range">
+<p>You can select a period of interest by entering the start month and year in the first text box, and an end month and year in the second text box. The year and month must be entered in the format YYYY-MM, ex: 2014-02 for February 2014. This option may be of interest if you want to calculate statistics for a narrower period than the period of record for the site and parameter. By default the full period of approved record is used.</p>
+</div>
+<h3><a name="partial_periods"></a>Use incomplete data</h3>
+<div class="partial_periods">
+<p>If checked, statistics are generated even if there is incomplete data. By default if there is any missing data over the range of the statistics wanted then the information is left blank. This can happen for various reasons including there was a technical problem with the gage or the gage was ice affected for part of the time period and data was not estimated. Note that some statistics require a minimum number of values. For example, to generate a median statistic at least three values are needed. At least ten values in the month are required to compute a percentile statistics.</p>
+</div>
+<h3><a name="monthly_stat_html_table"></a>Table of monthly means</h3>
+<div class="monthly_stat_html_table">
+<p>If this radio button is selected, a web page will appear for the selected parameters and sites with calculated monthly means appearing in a table of columns and rows. Months where there is an approved period of record for the entire month will contain the mean (average) in the table for the year and month.</p>
+</div>
+<h3><a name="monthly_stat_rdb"></a>Tab-separated data</h3>
+<div class="monthly_stat_rdb">
+<p>If this radio button is selected, a tab-delimited file of statistical data will be generated which will be sent to your computer (downloaded) by default. You can specify the output format for dates in the file using the drop down select control. You can also specify whether the file should appear on the screen rather than be downloaded or, if downloaded, whether it should be a file of plain text or whether the text should be compressed in a UNIX gzip format. If you download in a gzip format, you will need a program that can uncompress gzip data to use the data.</p>
+</div>
+<blockquote></blockquote>
+            
+        </div>
+    
+    
+
+                             </div>
+                             <div id="viewlet-below-content-body">
+
+
+
+    <div class="visualClear"><!-- --></div>
+
+    <div class="documentActions">
+        
+
+        
+
+    </div>
+
+</div>
+
+                            
+                        </div>
+                    
+
+                    
+                </div>
+            
+
+            <div id="viewlet-below-content">
+
+
+
+
+
+</div>
+        </div>
+
+        
+        
+
+        
+        
+    </div>
+
+
+    <div id="portal-footer-wrapper" class="row">
+        <div class="cell width-full position-0">
+            
+
+<!-- <div id="portal-footer" metal:define-macro="portal_footer" i18n:domain="plone"></div> -->
+
+
+<!-- BEGIN USGS Footer Template -->
+<div id="usgsfooter">
+  <p id="usgsfooterbar">
+
+  <a href="https://www.usgs.gov/laws/accessibility.html" title="Accessibility Policy (Section 508)">Accessibility</a>
+  <a href="https://www.usgs.gov/laws/accessibility.html" title="plug-in available here">Plug-Ins</a>
+  <a href="https://www.usgs.gov/foia/" title="Freedom of Information Act">FOIA</a>
+  <a href="https://www.usgs.gov/privacy.html" title="Privacy policies of the U.S. Geological Survey.">Privacy</a>
+  <a href="https://www.usgs.gov/policies_notices.html" title="Policies and notices that govern information posted on USGS Web sites.">Policies and Notices</a>
+  </p>
+
+  <p id="usgsfootertext">
+    
+    <a href="https://usa.gov/"><img src="./Output-formats—USGS-Water-Data-for-the-Nation-Help-System_files/USGS_footer_graphic_usagov.jpg" alt="USA.gov logo" title="USAGov: Government Made Easy" width="90" height="26"></a>
+
+    <a href="https://www.doi.gov/">U.S. Department of the Interior</a> |
+    <a href="https://www.usgs.gov/">U.S. Geological Survey</a><br>
+    <b>Title: USGS Water Data for the Nation Help<br>
+    URL: <a href="https://help.waterdata.usgs.gov/">https://help.waterdata.usgs.gov/</a><br><br></b>
+
+    Page Contact Information: <a href="https://answers.usgs.gov/cgi-bin/gsanswers?pemail=gs-w_support_nwisweb&amp;cemail=gs-w_NWISWeb_Feedback&amp;subject=Site+Number:%20&amp;viewnote=%3CH1%3EUSGS+NWIS+Feedback+Request%3C/H1%3E%3Cp%3E%3Cb%3EPlease%20enter%20a%20subject%20in%20the%20form%20below%20that%20briefly%20summarizes%20your%20request%3C/b%3E%3C/p%3E">USGS Water Data Support Team</a><br>
+    Page Last Modified: 2011-11-09 15:04:35 EST<br>
+    nad1<br>
+   </p>
+</div>
+<!-- END USGS Footer Template -->
+
+
+
+<!-- 
+<div id="portal-colophon" metal:define-macro="colophon" i18n:domain="plone">
+
+     <tal:comment replace="nothing">
+
+        Please keep the Plone Powered link (or the plone_powered.gif image) if you use
+        Plone on your site. It's a nice token of gratitude, and we appreciate your
+        help in promoting the Plone brand.
+
+        Plone is powered by the combined forces of Zope and CMF, two absolutely
+        great systems made by Zope Corporation (http://zope.com) and they in turn
+        are based on the best programming language in the world - Python
+        (http://www.python.org). We owe these guys a lot, thanks for making Plone
+        possible!
+
+      </tal:comment>
+
+      <metal:slot define-slot="colophon" />
+
+      <div class="colophonWrapper">
+      <ul>
+        <li>
+          <a href="https://plone.org"
+             title="This site was built using Plone CMS, the Open Source Content Management System. Click for more information."
+             i18n:attributes="title title_built_with_plone;"
+             i18n:translate="label_powered_by_plone">
+            Powered by Plone</a>
+        </li>
+        <li>
+          <a href="https://validator.w3.org/check/referer"
+             title="This site is valid XHTML."
+             i18n:attributes="title title_valid_xhtml;"
+             i18n:translate="label_xhtml">
+            Valid XHTML</a>
+        </li>
+        <li>
+          <a href="https://jigsaw.w3.org/css-validator/check/referer&amp;warning=no&amp;profile=css3&amp;usermedium=all"
+             title="This site was built with valid CSS."
+             i18n:attributes="title title_built_with_css;"
+             i18n:translate="label_css">
+            Valid CSS</a>
+        </li>
+        <li>
+          <a href="https://www.section508.gov"
+             title="This site conforms to the US Government Section 508 Accessibility Guidelines."
+             i18n:attributes="title title_section_508;"
+             i18n:translate="label_section_508">
+            Section 508</a>
+        </li>
+        <li>
+          <a href="https://www.w3.org/WAI/WCAG1AA-Conformance"
+             title="This site conforms to the W3C-WAI Web Content Accessibility Guidelines."
+             i18n:attributes="title title_wcag_conformance;"
+             i18n:translate="label_wcag">
+            WCAG</a>
+        </li>
+      </ul>
+      </div>
+
+    </div>
+-->
+<!--
+<ul id="portal-siteactions"
+    tal:define="accesskeys python: {'sitemap' : '3', 'accessibility' : '0', 'contact' : '9'};"
+    tal:condition="view/site_actions"
+    i18n:domain="plone">
+
+    <li tal:repeat="saction view/site_actions"
+        tal:attributes="id string:siteaction-${saction/id}"><a
+           href=""
+           tal:define="title saction/title;
+                       id saction/id;
+                       accesskey python: accesskeys.get(id, '');"
+           i18n:attributes="title"
+           i18n:translate=""
+           tal:content="title"
+           tal:attributes="href saction/url;
+                           title title;
+                           accesskey accesskey;"
+           >Site action</a></li>
+</ul>
+-->
+
+        </div>
+    </div>
+
+
+
+</div>
+
+
+
+
+
+<div id="ajax-spinner" style="display: none;"><img src="./Output-formats—USGS-Water-Data-for-the-Nation-Help-System_files/spinner.gif" alt=""></div></body></html>

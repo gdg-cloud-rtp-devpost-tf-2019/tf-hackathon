@@ -1,4 +1,6 @@
 
+2019-03-31
+--------------
 What public dataset on GCP has data we can use for the virtual sensor project
 
 
@@ -69,11 +71,15 @@ Site Type: Stream
 Agency: USGS
 
 
+2019-04-01
+--------------
+
 Notes on fields
 https://help.waterdata.usgs.gov/output-formats#nwis_mapper
 
 
-These are in the area Jim has sensors
+These are in the area Jim has sensors.  This will be the area we use for the 
+hackathon.
 A screenshot of the area is shown in pics.  Titled area-of-interest-usgs.png
 
 From North West corner to South East.
@@ -117,31 +123,52 @@ Site Number: 02042928
 Site Name: BYPASS CANAL AT INTL PARKWAY NEAR MAPLETON, VA
 Site Type: Stream
 Agency: USGS
+Latitude 36°48'56.8",   Longitude 76°03'39.3"   NAD83
+Virginia Beach City, Virginia, Hydrologic Unit 02080108
 
 Site Number: 0204297575
 Site Name: LAKE RUDEE NEAR BELLS ROAD AT VIRGINIA BEACH, VA
 Site Type: Stream
 Agency: USGS
+Latitude 36°49'29.2",   Longitude 75°59'06.9"   NAD83
+Virginia Beach City, Virginia, Hydrologic Unit 02080108
+Datum of gage: 0.00 feet above   NAVD88.
 
 Site Number: 02043155
 Site Name: WEST NECK CREEK AT DAM NECK ROAD AT MAPLETON, VA
 Site Type: Stream
 Agency: USGS
+Latitude 36°47'18.1",   Longitude 76°04'14.8"   NAD83
+Virginia Beach City, Virginia, Hydrologic Unit 03010205
+Drainage area: 3.12 square miles
+Datum of gage: 0.00 feet above   NAVD88.
+
 
 Site Number: 0204288539
 Site Name: BELLS MILL CRK AT BELLS MILL RD AT CHESAPEAKE, VA
 Site Type: Stream
 Agency: USGS
+Latitude 36°42'42.1",   Longitude 76°16'05.6"   NAD83
+Chesapeake City, Virginia, Hydrologic Unit 02080208
+Datum of gage: 0.0 feet above   NAVD88.
+
 
 Site Number: 0204309906
 Site Name: CONVEYANCE CHAN AT RAMSGATE LN NR GREAT BRIDGE, VA
 Site Type: Stream
 Agency: USGS
+Latitude 36°41'26.32",   Longitude 76°12'44.34"   NAD83
+Chesapeake City, Virginia, Hydrologic Unit 03010205
+(Could not get daily data for this site.  It had the flow rate data though.)
+
 
 Site Number: 0204300267
 Site Name: BEGGARS BRIDGE CREEK NEAR DAWLEY CORNERS, VA
 Site Type: Stream
 Agency: USGS
+Latitude 36°40'47.3",   Longitude 75°59'02.4"   NAD83
+Virginia Beach City, Virginia, Hydrologic Unit 03010205
+Datum of gage: 0.00 feet above   NAVD88.
 
 
 

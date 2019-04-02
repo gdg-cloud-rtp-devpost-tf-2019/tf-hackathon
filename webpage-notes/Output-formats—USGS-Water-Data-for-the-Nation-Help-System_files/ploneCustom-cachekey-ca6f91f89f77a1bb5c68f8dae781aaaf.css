@@ -1,0 +1,369 @@
+
+/* - ploneCustom.css - */
+@media all {
+/* https://help.waterdata.usgs.gov/portal_css/ploneCustom.css?original=1 */
+#usgscolorband {
+font: 14px Verdana, Arial, Helvetica, sans-serif;
+width: 100%;
+height: 5.14em;
+/* */
+background: #000000 url('USGS_header_graphic_hazards.jpg') 178px 0px no-repeat;
+border-top: 8px solid #ffffff;
+}
+#usgsbanner {
+width: 100%;
+height: 72px;
+}
+#usgsidentifier {
+background-color: black;
+width: 178px;
+height: 5.14em;
+float: left;
+}
+#usgsidentifier img {
+border: none;
+}
+#usgscoop {
+padding-left: 18px;
+position: relative;
+float: left;
+height: 5.14em;
+background-color: black;
+min-height: 72px;
+}
+#usgscoop img {
+margin-right: 3px;
+border: none;
+}
+#usgstitle {
+background-color: #006633;
+clear: both;
+width: 100%;
+border-bottom: 1px solid #ffffff;
+border-top: 1px solid #ffffff;
+font: 14px Verdana, Arial, Helvetica, sans-serif;
+color: #ffffff;
+}
+#usgstitle p {
+font: bold 1.2em Verdana, Arial, Helvetica, sans-serif;
+padding: 5px;
+margin: 0px;
+}
+#usgsccsabox {
+float: right;
+background-color: #000000;
+min-height: 72px;
+}
+#usgsccsa {
+font:  1em/.5em Verdana, Arial, Helvetica, sans-serif;
+height: 5.14em;
+width: 10.5em;
+}
+#usgsccsa a:link, #usgsccsa a:visited {
+font: bold 1em/1.3em Verdana, Arial, Helvetica, sans-serif;
+color: #ffffff;
+margin-left: 4px;
+text-decoration: none;
+}
+#usgsccsa a:hover {
+font: bold 1em/1.3em Verdana, Arial, Helvetica, sans-serif;
+color: #ffffff;
+text-decoration: underline;
+margin-left: 4px;
+}
+#usgsccsa a:active {
+font: bold 1em/1.3em Verdana, Arial, Helvetica, sans-serif;
+color: #ffffff;
+margin-left: 4px;
+text-decoration: none;
+}
+body {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: small;
+color: #000000;
+background-color: #ffffff;
+}
+th, td {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: small;
+}
+#usgsfooter {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: small;
+margin-top: 20px;
+margin-bottom: 2px;
+margin-left: 5px;
+margin-right: 5px;
+}
+#usgsfooterbar {
+background-color: #666666;
+padding: 4px;
+margin-bottom: -1px;
+margin-left: 5px;
+margin-right: 5px;
+}
+#usgsfooterbar a:link, #usgsfooterbar a:visited {
+margin-right: 40px;
+color: #ffffff;
+text-decoration: none;
+}
+#usgsfooterbar a:hover {
+margin-right: 40px;
+color: #ffffff;
+text-decoration: underline;
+}
+#usgsfooterbar a:active {
+margin-right: 40px;
+color: #ffffff;
+text-decoration: none;
+}
+#usgsfootertext {
+padding: 4px;
+}
+#usgsfootertext img {
+border: none;
+float: right;
+margin-right: .3em;
+}
+/* */
+/* */
+/* */
+#usgstitle {
+background-color: #000080;
+color: #ffffff;
+}
+#usgstitle p {
+font: bold 1.2em Verdana, Arial, Helvetica, sans-serif;
+padding: 5px;
+margin: 0px;
+}
+#usgstitle a:link, #usgstitle a:visited {
+margin-right: 40px;
+color: #ffffff;
+text-decoration: none;
+}
+#usgstitle a:hover {
+margin-right: 40px;
+color: #ffffff;
+text-decoration: underline;
+}
+#usgstitle a:active {
+margin-right: 40px;
+color: #ffffff;
+text-decoration: none;
+}
+/* */
+body {
+font-size: 100%;
+}
+th, td {
+font-size: 100%;
+}
+H1 { color: #000080; }
+H2 { color: #000080; }
+H3 { color: #000080; }
+.h1 { color: #000080; }
+.h2 { color: #000080; }
+.h3 { color: #000080; }
+.bannercolor { background: #000080; }
+.term {
+font-size: 1.1em;
+font-weight: bolder;
+}
+/* */
+H1 {
+margin-top: 0em;
+margin-bottom: 0em;
+}
+H2 {
+margin-top: 0em;
+margin-bottom: .1em;
+}
+H3 {
+margin-top: 0em;
+margin-bottom: 0em;
+}
+ADDRESS {
+margin-top: 0em;
+margin-bottom: 0em;
+font-style: normal;
+font-size: 70%;
+font-weight: bold;
+}
+/* */
+.h1 {
+font-size: 190%;
+font-weight: bold;
+margin-top: 0em;
+margin-bottom: 0em;
+}
+.h2 {
+font-size: 145%;
+font-weight: bold;
+margin-top: 0em;
+margin-bottom: 0em;
+}
+.h3 {
+font-size: 120%;
+font-weight: bold;
+margin-top: 0em;
+margin-bottom: 0em;
+}
+.notop {margin-top: 0em; }
+.indent {
+margin-left: .25em;
+margin-right: .25em;
+margin-top: 0em;
+text-indent: 1em;
+}
+.blockindent {
+margin-left: 5mm;
+margin-top: 0em;
+}
+.description {
+margin-left: .5em;
+margin-right: .5em;
+margin-top: 0em;
+margin-bottom: 0em;
+text-indent: 1em;
+}
+.grouplabel {
+margin-top: 0em;
+margin-bottom: .25em;
+color: #000080;
+}
+.grouptext {
+margin-top: 0em;
+margin-left: .25em;
+margin-right: .25em;
+margin-bottom: .75em;
+text-indent: 1em;
+}
+/* */
+.helptext {
+margin-left: 2em;
+margin-top: 0em;
+margin-bottom: 0em;
+}
+.helpheader {
+font-size: larger;
+color: blue;
+}
+.helpurlheader { color: red; }
+.helpurls {
+margin-left: 2em;
+margin-top: 0em;
+margin-bottom: 0em;
+font-family: courier;
+}
+.smline { line-height: 95%; }
+.nospace {
+margin-top: 0em;
+margin-bottom: 0em;
+margin-left: 0em;
+margin-right: 0em;
+line-height: 90%;
+}
+.tableindent {
+margin-left: 10mm;
+margin-top: 0em;
+}
+.imgcaption { font-size: 12px; font-weight: bold; color: #FF0000}
+.generic {font-size: 15px; }
+.fine_print {font-size: 12px;}
+a.anchor:link {color: blue}     /* */
+a.anchor:visited {color: blue}  /* */
+a.anchor:hover {color: #ff00ff}   /* */
+a.anchor:active {color: #0000ff}   /* */
+.news { background-color: #DDFFFF}
+.highlight1 { background-color: #CCFFFF}
+.highlight2 { background-color: #EFEFEF}
+.internal { color: red }
+.test {background-color: #DDDDDD; color: #000000}
+#portal-globalnav {
+clear: both;
+font-size: 80%;
+background: #ffffff;
+/* */
+margin: 0 0 1em 0;
+height: 2.1em;
+overflow: hidden;
+}
+#portal-globalnav li {
+}
+#portal-globalnav li a {
+display: inline-block;
+color: black;
+padding: 0.5em 1em 2em 1em;
+background: #ddd;
+min-width: 2em;
+white-space: normal;
+border-radius: 0.5em 0.5em;
+/* */
+border-right: 0.1em solid white;
+}
+.portletHeader {
+/* */
+/* */
+/* */
+/* */
+padding: 0em 0.4em;
+border-radius: 0.5em 0.5em;
+}
+.portletContent {
+/* */
+/* */
+/* */
+padding: 0.3em 0.4em;
+}
+div.portletContent {
+/* */
+/* */
+/* */
+padding: 0.3em 0.4em;
+}
+.portletNavigationTree {
+margin: 0 0 0 0.25em;
+padding: 0;
+list-style: none;
+list-style-image: none;
+line-height: 1em;
+background-color: #ffffff;
+}
+/* */
+#LSResult {
+position: absolute;
+right: 0;
+background: White;
+margin: 0 0 0 0;
+/* */
+}
+#LSResult fieldset {
+padding: 1em 0 0;
+border: 0.1em solid #ccc;
+}
+#livesearchLegend {
+background-color:#ccc;
+padding:0.3em;
+}
+#LSResult .LSDescr {
+font-size: 85%;
+color: #666;
+}
+.LSRow,
+#LSNothingFound {
+display: block;
+padding: 0.5em 1em;
+white-space: normal;
+width:28em;
+}
+.LSHighlight {
+background: #ddd;
+}
+/* */
+/* */
+/* */
+/* */
+
+}
+
