@@ -1,0 +1,79 @@
+Query to find weather data for Beggars bridge creek near dawley corners va station
+
+USGS 0204300267 BEGGARS BRIDGE CREEK NEAR DAWLEY CORNERS, VA
+  Available data for this site     
+    Stream: Tidal stream Site
+    DESCRIPTION:
+    Latitude 36°40'47.3",   Longitude 75°59'02.4"   NAD83
+    Virginia Beach City, Virginia, Hydrologic Unit 03010205
+    Datum of gage: 0.00 feet above   NAVD88.
+
+
+Hmmn.  The sample had chicago and -87.5 longitude.  The info above is positive.  
+Different coordinate system?
+
+Original
+-----------
+SELECT
+    id,
+    name,
+    state,
+    latitude,
+    longitude
+FROM
+    `bigquery-public-data.ghcn_d.ghcnd_stations`
+WHERE
+    latitude > 41.7
+    AND latitude < 42
+    AND longitude > -87.7
+    AND longitude < -87.5
+
+For station above?
+-----------
+SELECT
+    id,
+    name,
+    state,
+    latitude,
+    longitude
+FROM
+    `bigquery-public-data.ghcn_d.ghcnd_stations`
+WHERE
+    latitude > 36.3
+    AND latitude < 36.5
+    AND longitude > -75.6
+    AND longitude < -75.4
+
+returned nothing
+
+SELECT
+    id,
+    name,
+    state,
+    latitude,
+    longitude
+FROM
+    `bigquery-public-data.ghcn_d.ghcnd_stations`
+WHERE
+    latitude > 36.2
+    AND latitude < 36.6
+    AND longitude > -75.7
+    AND longitude < -75.3
+
+returned nothing
+
+SELECT
+    id,
+    name,
+    state,
+    latitude,
+    longitude
+FROM
+    `bigquery-public-data.ghcn_d.ghcnd_stations`
+WHERE
+    latitude > 36.2
+    AND latitude < 36.6
+    AND longitude > 75.3
+    AND longitude < 75.7
+
+returned nothing
