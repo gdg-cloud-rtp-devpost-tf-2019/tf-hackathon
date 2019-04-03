@@ -183,3 +183,18 @@ Experimentation shows that the longtitude should be a negative number.
 
 The conversion of lat/lon to different coordinate system fails. 8-(
 
+2019-04-03
+--------------
+John pointed out the method I pulled form wikipedia for converting
+from one coordinate system to another is wrong.
+
+Added the gmap capability in jupyter notebooks.
+
+In order to get the API key to be read from environment, need to source 
+setenv.sh from the terminal and then start jupyter notebooks.  Starting
+up jupyter from within anaconda-navigator fails on osx.  The code
+for starting up navigator uses --init-file on the bash that is started up
+and thus even if you set the variable in your shell it does not follow.
+
+API docs for the gmaps module are here
+https://jupyter-gmaps.readthedocs.io/en/latest/api.html#module-gmaps.datasets
