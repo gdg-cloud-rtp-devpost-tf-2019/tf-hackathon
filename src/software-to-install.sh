@@ -2,6 +2,10 @@
 
 conda install gdal -c conda-forge
 conda install -c conda-forge gmaps
+conda install matplotlib
+conda install seaborn
+pip install tensorflow==2.0.0-alpha0 
+
 
 # do this inside of the tf env
 jupyter nbextension enable --py --sys-prefix widgetsnbextension
