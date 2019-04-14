@@ -7,5 +7,5 @@
 # that you do not upload your key.  Do not remove it.
 
 # for gmaps api in juypter notebooks
-export GOOGLE_MAPS_API_KEY="Add your change here"
+export GOOGLE_MAPS_API_KEY="AIzaSyCeS1Ws-4UzVV7tS-mYpMLpq6ZPp56dFLU"
 
