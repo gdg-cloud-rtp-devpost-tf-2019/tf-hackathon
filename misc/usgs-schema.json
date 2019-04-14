@@ -1,0 +1,47 @@
+[
+    {
+        "description": "Boilerplate text",
+        "name": "usgs",
+        "type": "String"
+    },
+    {
+        "description": "the site number",
+        "name": "site_no",
+        "type": "Integer"
+    },
+    {
+        "description": "date of reading",
+        "name": "date",
+        "type": "Date"
+    },
+    {
+        "description": "High tide reading",
+        "name": "tidal_high",
+        "type": "FLOAT"
+    },
+    {
+        "description": "High tide reading quality code",
+        "name": "tidal_high_qc",
+        "type": "String"
+    },
+    {
+        "description": "High tide reading",
+        "name": "tidal_low",
+        "type": "FLOAT"
+    },
+    {
+        "description": "High tide reading quality code",
+        "name": "tidal_low_qc",
+        "type": "String"
+    },
+    {
+        "description": "Rain in inches",
+        "name": "precipitation_inches",
+        "type": "FLOAT"
+    },
+    {
+        "description": "Rain in inches quality code",
+        "name": "precip_qual_code",
+        "type": "String"
+    }
+]
