@@ -245,4 +245,113 @@ where usgs=usgs
 Odd, but it requires a where clause
 
 
+2019-04-21
+--------------
+
+Regarding usgs data.  The water level readings are in feet.  The prepitation is in inches.
+
+Jim's GS data has the following mods
+water level = offset - distance.
+This value is in cm.
+
+
+Imported some of Jim's Data to make a bigquery table.  Using SQL
+I could massage his single table into something which looked like
+the USGS data.  
+
+
+Also imported all of his tables into one singe dataprep flow.
+This enables global mods and the ability to write out a single 
+bigquery table as a result.
+
+
+With that said, Here is the breakdown of Greenstream stations.
+
+Green_stream/Virginia_beach
+
+To distinguish from usgs in data, these sites will 
+be designated as gsvb
+
+To give a unqiue Station ID (SN), I'm using format shown below.
+
+Name                            SN              Lat             Long
+--------------------------------------------------------------------------
+Ashville Park                   33670001        36.735303      -76.011602
+Brock Center                    33670002        36.90352       -76.09570
+Hells Point                     33670003        36.8520027     -76.2885631
+Little Island Park Launch       33670004        36.69270       -75.92638
+Lotus Creek                     33670005        36.731694      -75.984772
+Muddy Creek Road                33670006        36.70948       -75.98840
+Munden Point                    33670007        36.58199       -76.03984
+Sandbridge Realty               33670008        36.85638       -76.29074
+West Neck Creek                 33670009        36.72117       -76.03359
+
+
+
+When trying to work with DataPrep, noticed there is a lat long combo
+of 36.732839, -75.971020
+So, one of the sensors moved during data gathering.  I built the
+table above by getting  lat, long from the first table in each folder.
+
+The above lat/long combo showed up 2,792 times, but by spot checking
+the 2019-04-xx csv files in the various folders listed by location
+in gcs I could not find which one it was for.
+
+Since I am trying to simply get this data to merge into the usgs data
+I simply cut these 2K rows.
+
+I tried quite a bit to get max, min values by day by site, but 
+it kept the 5 min values in table.  Trying to do on a per site
+basis and see if I can do it.
+
+
+Went back and played with it some more and now I can do on
+all files in the enitre bucket.
+
+I have downloaded the recipe as a wrange and put in the misc folder.
+
+The dataprep job starts an actuall cloud data flow job, which in turn is
+a apache beam job.
+
+It appears to be working.  Odd is that all the checkboxes are solid greebn
+but its still running.  Once it pops up and says job complete, it still takes 
+a while for the table to show up in bigquery.
+
+Now we have dataset.table usgs_v3.usgs_gsvb_v1 which has the combined data in one table.  This includes
+usgs station and greenstream stations.
+
+This is the combind station no and lat long the column which says usgs, should be renamed
+to 'owner' so that the values are either usgs or gsvb.  
+
+SELECT distinct usgs, site_no, lat, long FROM `tf-hackathon-236400.usgs_v3.usgs_gsvb_v1` order by usgs
+
+Row	usgs	site_no	lat	long	
+1	GSVB 33670002 36.90352 -76.0957
+2	GSVB 33670008 36.85638 -76.29074
+3	GSVB 33670004 36.6927 -75.92638
+4	GSVB 33670007 36.58199 -76.03984
+5	GSVB 33670006 36.70948 -75.9884
+6	GSVB 33670003 36.8520027 -76.2885631
+7	GSVB 33670005 36.731694 -75.984772
+8	GSVB 33670001 36.735303 -76.011602
+9	GSVB 33670009 36.72117 -76.03359
+10	USGS 204288539 36.71169444444445 -75.73177777777778
+11	USGS 204297575 36.82477777777778 -74.01474999999999
+12	USGS 204288721 36.827222222222225 -75.83444444444444
+13	USGS 2042928 36.815777777777775 -75.93908333333334
+14	USGS 2043155 36.78836111111111 -75.92922222222222
+15	USGS 204300267 36.679805555555554 -74.016
+16	USGS 204293125 36.84113888888889 -75.94286111111111
+17	USGS 204295505 36.85927777777778 -74.01552777777778
+18	USGS 204291317 36.84330555555556 -75.87552777777779
+
+
+Moved the combined table to csv files so that we can start doing actual ML using TF.
+
+We never plotted the lat longs for usgs.  Today when I plotted them, they are incorrect.  Not sure where the problem
+is.  The long values seems to be off for all of them.
+
+Aslo noticed I checked in the api key again.  I have to invalidate and get a new one.
+
+
 

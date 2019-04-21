@@ -1,0 +1,28 @@
+drop col: rssi action: Drop
+drop col: temp action: Drop
+drop col: voltage action: Drop
+drop col: alt action: Drop
+derive type: single value: 'GSVB' as: 'usgs'
+case condition: columnConditions col: lat colCases: [36.735303,33670001], [36.90352,33670002], [36.8520027,33670003], [36.6927,33670004], [36.731694,33670005], [36.70948,33670006], [36.58199,33670007], [36.85638,33670008], [36.72117,33670009] default: -99 as: 'site_no'
+move col: site_no position: after after: usgs
+filter type: exactly col: site_no exactly: -99 action: Delete
+move col: lat position: after after: offset
+move col: long position: after after: lat
+derive type: single value: YEAR(timestamp) as: 'year'
+derive type: single value: MONTH(timestamp) as: 'month'
+derive type: single value: DAY(timestamp) as: 'day'
+groupby group: site_no,year,month,day value: MAX(distance),MIN(distance),MIN(offset),MAX(offset) type: flatAgg
+drop col: offset action: Drop
+drop col: distance action: Drop
+drop col: timestamp action: Drop
+merge col: year,month,day with: '-' as: 'date'
+drop col: day action: Drop
+drop col: month action: Drop
+drop col: year action: Drop
+deduplicate
+derive type: single value: (max_offset - max_distance) / 30.48 as: 'tidal_high'
+derive type: single value: (min_offset - min_distance) / 30.48 as: 'tidal_low'
+drop col: max_distance action: Drop
+drop col: min_distance action: Drop
+drop col: min_offset action: Drop
+drop col: max_offset action: Drop
