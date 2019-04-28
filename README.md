@@ -47,6 +47,9 @@ Ideally we would like to have additional data sources added.  Below are the goal
 The area of interest and the two sets of sensor locations are shown in Figure 1.
 
 
+![USGS GSVB Sensor Picture](/pics/usgs-gsvb-locations.png?raw=true "Figure 1 - USGS GSVB Sensor Locations")
+
+
 # Filestem Overview
 This is an overview of the git repo filesystem
 
