@@ -354,4 +354,206 @@ is.  The long values seems to be off for all of them.
 Aslo noticed I checked in the api key again.  I have to invalidate and get a new one.
 
 
+2019-04-21
+--------------
+
+Another try on the coordinates.
+
+
+
+When I entered the coordinates as is in google maps, it shows China.
+When I adjust for -76 it autocorrects to below.  It is showing N and W 
+as mods for the coordinates.
+
+double checking the usgs website and google maps shows the locations are identical.
+
+
+
+Site Number: 0204288721
+Site Name: EB ELIZABETH RIVER AT RT 165 AT VIRGINIA BEACH, VA
+Site Type: Stream
+Agency: USGS
+Latitude 36°49'38",   Longitude 76°09'56"   NAD27
+Virginia Beach City, Virginia, Hydrologic Unit 02080208
+Datum of gage: 0.00 feet above   NAVD88
+36°49'38.0"N 76°09'56.0"W
+36.827222, -76.165556
+
+
+Site Number: 0204291317
+Site Name: THALIA CREEK AT ROUTE 58 AT THALIA, VA
+Site Type: Stream
+Agency: USGS
+Latitude 36°50'35.9",   Longitude 76°07'28.1"   NAD83
+Virginia Beach City, Virginia, Hydrologic Unit 02080108
+Datum of gage: 0.00 feet above   NAVD88.
+36°50'35.9"N 76°07'28.1"W
+36.843306, -76.124472
+
+
+
+Site Number: 0204293125
+Site Name: LONDON BRIDGE CREEK AT RT 58 AT VIRGINIA BEACH, VA
+Site Type: Stream
+Agency: USGS
+Latitude 36°50'28.1",   Longitude 76°03'25.7"   NAD83
+Virginia Beach City, Virginia, Hydrologic Unit 02080108
+Datum of gage: 0.00 feet above   NAVD88.
+36°50'28.1"N 76°03'25.7"W
+36.841139, -76.057139
+
+
+
+Site Number: 0204295505
+Site Name: LITTLE NECK CREEK AT PINEWOOD RD AT VA BEACH, VA
+Site Type: Stream
+Agency: USGS
+Latitude 36°51'33.4",   Longitude 75°59'04.1"   NAD83
+Virginia Beach City, Virginia, Hydrologic Unit 02080108
+Datum of gage: 0.00 feet above   NAVD88.
+36°51'33.4"N 75°59'04.1"W
+36.859278, -75.984472
+
+
+
+Site Number: 02042928
+Site Name: BYPASS CANAL AT INTL PARKWAY NEAR MAPLETON, VA
+Site Type: Stream
+Agency: USGS
+Latitude 36°48'56.8",   Longitude 76°03'39.3"   NAD83
+Virginia Beach City, Virginia, Hydrologic Unit 02080108
+(Update: 2019-04-13 SN02042928.csv only has tidal_high values and only for 2018-5-29 to 2018-04-15)
+36°48'56.8"N 76°03'39.3"W
+36.815778, -76.060917
+
+
+Site Number: 0204297575
+Site Name: LAKE RUDEE NEAR BELLS ROAD AT VIRGINIA BEACH, VA
+Site Type: Stream
+Agency: USGS
+Latitude 36°49'29.2",   Longitude 75°59'06.9"   NAD83
+Virginia Beach City, Virginia, Hydrologic Unit 02080108
+Datum of gage: 0.00 feet above   NAVD88.
+36°49'29.2"N 75°59'06.9"W
+36.824778, -75.985250
+
+
+
+Site Number: 02043155
+Site Name: WEST NECK CREEK AT DAM NECK ROAD AT MAPLETON, VA
+Site Type: Stream
+Agency: USGS
+Latitude 36°47'18.1",   Longitude 76°04'14.8"   NAD83
+Virginia Beach City, Virginia, Hydrologic Unit 03010205
+Drainage area: 3.12 square miles
+Datum of gage: 0.00 feet above   NAVD88.
+36°47'18.1"N 76°04'14.8"W
+36.788361, -76.070778
+
+
+
+
+Site Number: 0204288539
+Site Name: BELLS MILL CRK AT BELLS MILL RD AT CHESAPEAKE, VA
+Site Type: Stream
+Agency: USGS
+Latitude 36°42'42.1",   Longitude 76°16'05.6"   NAD83
+Chesapeake City, Virginia, Hydrologic Unit 02080208
+Datum of gage: 0.0 feet above   NAVD88.
+(Update: 2019-04-13 SN0204288539.csv  does not have precipitation columns)
+36°42'42.1"N 76°16'05.6"W
+36.711694, -76.268222
+
+
+Site Number: 0204309906
+Site Name: CONVEYANCE CHAN AT RAMSGATE LN NR GREAT BRIDGE, VA
+Site Type: Stream
+Agency: USGS
+Latitude 36°41'26.32",   Longitude 76°12'44.34"   NAD83
+Chesapeake City, Virginia, Hydrologic Unit 03010205
+(Could not get daily data for this site.  It had the flow rate data though.)
+36°41'26.3"N 76°12'44.3"W
+36.690644, -76.212317
+I saved a copy of its data, but its not the same format.  This one has water temp, guage height,
+etc.
+
+
+
+
+Site Number: 0204300267
+Site Name: BEGGARS BRIDGE CREEK NEAR DAWLEY CORNERS, VA
+Site Type: Stream
+Agency: USGS
+Latitude 36°40'47.3",   Longitude 75°59'02.4"   NAD83
+Virginia Beach City, Virginia, Hydrologic Unit 03010205
+Datum of gage: 0.00 feet above   NAVD88.
+36°40'47.3"N 75°59'02.4"W
+36.679806, -75.984000
+
+
+==========
+Rewrite for simplicty to check python code
+
+
+
+Site Number: 0204288721
+Site Name: EB ELIZABETH RIVER AT RT 165 AT VIRGINIA BEACH, VA
+36°49'38.0"N 76°09'56.0"W
+36.827222, -76.165556
+
+
+Site Number: 0204291317
+Site Name: THALIA CREEK AT ROUTE 58 AT THALIA, VA
+36°50'35.9"N 76°07'28.1"W
+36.843306, -76.124472
+
+
+
+Site Number: 0204293125
+Site Name: LONDON BRIDGE CREEK AT RT 58 AT VIRGINIA BEACH, VA
+36°50'28.1"N 76°03'25.7"W
+36.841139, -76.057139
+
+
+Site Number: 0204295505
+Site Name: LITTLE NECK CREEK AT PINEWOOD RD AT VA BEACH, VA
+36°51'33.4"N 75°59'04.1"W
+36.859278, -75.984472
+
+
+
+Site Number: 02042928
+Site Name: BYPASS CANAL AT INTL PARKWAY NEAR MAPLETON, VA
+36°48'56.8"N 76°03'39.3"W
+36.815778, -76.060917
+
+
+Site Number: 0204297575
+Site Name: LAKE RUDEE NEAR BELLS ROAD AT VIRGINIA BEACH, VA
+36°49'29.2"N 75°59'06.9"W
+36.824778, -75.985250
+
+
+
+Site Number: 02043155
+Site Name: WEST NECK CREEK AT DAM NECK ROAD AT MAPLETON, VA
+36°47'18.1"N 76°04'14.8"W
+36.788361, -76.070778
+
+
+Site Number: 0204288539
+Site Name: BELLS MILL CRK AT BELLS MILL RD AT CHESAPEAKE, VA
+36°42'42.1"N 76°16'05.6"W
+36.711694, -76.268222
+
+
+Site Number: 0204300267
+Site Name: BEGGARS BRIDGE CREEK NEAR DAWLEY CORNERS, VA
+36°40'47.3"N 75°59'02.4"W
+36.679806, -75.984000
+
+
+Found the error.  The degrees should be a positive number.  At the end, 
+its converted to negative.  Otherwise, the degrees are neg, but the 
+mins and secs are postive and they don't sum.
 
