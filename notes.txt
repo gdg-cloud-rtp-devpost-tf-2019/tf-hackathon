@@ -609,3 +609,19 @@ it has a connection to the TF dev day video I saw on the topic last month.
 https://www.tensorflow.org/tensorboard/r2/tensorboard_in_notebooks
 
 
+2019-05-02
+---------
+
+William Chargin pointed out the problem with tensorboard in local notebook.
+Do this
+
+$ conda create --name tf2
+ $ conda activate tf2
+ $ conda install pip
+ $ pip install tensorflow==2.0.0-alpha0
+ $ conda install jupyter
+ $ jupyter notebook
+
+%load_ext tensorboard.notebook
+%tensorboard --logdir logs
+
