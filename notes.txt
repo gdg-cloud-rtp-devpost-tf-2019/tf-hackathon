@@ -354,7 +354,7 @@ is.  The long values seems to be off for all of them.
 Aslo noticed I checked in the api key again.  I have to invalidate and get a new one.
 
 
-2019-04-21
+2019-04-27
 --------------
 
 Another try on the coordinates.
@@ -556,4 +556,17 @@ Site Name: BEGGARS BRIDGE CREEK NEAR DAWLEY CORNERS, VA
 Found the error.  The degrees should be a positive number.  At the end, 
 its converted to negative.  Otherwise, the degrees are neg, but the 
 mins and secs are postive and they don't sum.
+
+
+
+
+
+2019-04-28
+--------------
+
+Picking up where I left off on the tensorboard.  This url is the guide.  It looks like
+it has a connection to the TF dev day video I saw on the topic last month.
+
+https://www.tensorflow.org/tensorboard/r2/tensorboard_in_notebooks
+
 

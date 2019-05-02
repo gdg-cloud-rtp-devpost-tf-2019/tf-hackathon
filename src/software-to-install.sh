@@ -8,6 +8,7 @@ pip install tensorflow==2.0.0-alpha0
 
 
 # do this inside of the tf env
+# Mods for gmaps modules
 jupyter nbextension enable --py --sys-prefix widgetsnbextension
 jupyter nbextension enable --py --sys-prefix gmaps
 
