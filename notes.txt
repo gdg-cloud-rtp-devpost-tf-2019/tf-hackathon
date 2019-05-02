@@ -91,6 +91,11 @@ Agency: USGS
 Latitude 36°49'38",   Longitude 76°09'56"   NAD27
 Virginia Beach City, Virginia, Hydrologic Unit 02080208
 Datum of gage: 0.00 feet above   NAVD88
+Available Parameters (Parameter ID):
+  - Wind Speed (00035)
+  - Wind Direction (00036)
+  - Precipitation (00045)
+  - Elevation, ocean/est, NAVD88 (62620)
 
 Site Number: 0204291317
 Site Name: THALIA CREEK AT ROUTE 58 AT THALIA, VA
@@ -99,7 +104,11 @@ Agency: USGS
 Latitude 36°50'35.9",   Longitude 76°07'28.1"   NAD83
 Virginia Beach City, Virginia, Hydrologic Unit 02080108
 Datum of gage: 0.00 feet above   NAVD88.
-
+Available Parameters (Parameter ID):
+  - Wind Speed (00035)
+  - Wind Direction (00036)
+  - Precipitation (00045)
+  - Elevation, ocean/est, NAVD88 (62620)
 
 Site Number: 0204293125
 Site Name: LONDON BRIDGE CREEK AT RT 58 AT VIRGINIA BEACH, VA
@@ -108,7 +117,11 @@ Agency: USGS
 Latitude 36°50'28.1",   Longitude 76°03'25.7"   NAD83
 Virginia Beach City, Virginia, Hydrologic Unit 02080108
 Datum of gage: 0.00 feet above   NAVD88.
-
+Available Parameters (Parameter ID):
+  - Wind Speed (00035)
+  - Wind Direction (00036)
+  - Precipitation (00045)
+  - Elevation, ocean/est, NAVD88 (62620)
 
 Site Number: 0204295505
 Site Name: LITTLE NECK CREEK AT PINEWOOD RD AT VA BEACH, VA
@@ -117,7 +130,11 @@ Agency: USGS
 Latitude 36°51'33.4",   Longitude 75°59'04.1"   NAD83
 Virginia Beach City, Virginia, Hydrologic Unit 02080108
 Datum of gage: 0.00 feet above   NAVD88.
-
+Available Parameters (Parameter ID):
+  - Wind Speed (00035)
+  - Wind Direction (00036)
+  - Precipitation (00045)
+  - Elevation, ocean/est, NAVD88 (62620)
 
 Site Number: 02042928
 Site Name: BYPASS CANAL AT INTL PARKWAY NEAR MAPLETON, VA
@@ -126,6 +143,11 @@ Agency: USGS
 Latitude 36°48'56.8",   Longitude 76°03'39.3"   NAD83
 Virginia Beach City, Virginia, Hydrologic Unit 02080108
 (Update: 2019-04-13 SN02042928.csv only has tidal_high values and only for 2018-5-29 to 2018-04-15)
+Available Parameters (Parameter ID):
+  - Wind Speed (00035)
+  - Wind Direction (00036)
+  - Precipitation (00045)
+  - Elevation, ocean/est, NAVD88 (62620)
 
 Site Number: 0204297575
 Site Name: LAKE RUDEE NEAR BELLS ROAD AT VIRGINIA BEACH, VA
@@ -134,6 +156,11 @@ Agency: USGS
 Latitude 36°49'29.2",   Longitude 75°59'06.9"   NAD83
 Virginia Beach City, Virginia, Hydrologic Unit 02080108
 Datum of gage: 0.00 feet above   NAVD88.
+Available Parameters (Parameter ID):
+  - Wind Speed (00035)
+  - Wind Direction (00036)
+  - Precipitation (00045)
+  - Elevation, ocean/est, NAVD88 (62620)
 
 Site Number: 02043155
 Site Name: WEST NECK CREEK AT DAM NECK ROAD AT MAPLETON, VA
@@ -143,7 +170,8 @@ Latitude 36°47'18.1",   Longitude 76°04'14.8"   NAD83
 Virginia Beach City, Virginia, Hydrologic Unit 03010205
 Drainage area: 3.12 square miles
 Datum of gage: 0.00 feet above   NAVD88.
-
+Available Parameters (Parameter ID):
+  - Elevation, ocean/est, NAVD88 (62620)
 
 Site Number: 0204288539
 Site Name: BELLS MILL CRK AT BELLS MILL RD AT CHESAPEAKE, VA
@@ -153,7 +181,8 @@ Latitude 36°42'42.1",   Longitude 76°16'05.6"   NAD83
 Chesapeake City, Virginia, Hydrologic Unit 02080208
 Datum of gage: 0.0 feet above   NAVD88.
 (Update: 2019-04-13 SN0204288539.csv  does not have precipitation columns)
-
+Available Parameters (Parameter ID):
+  - Elevation, ocean/est, NAVD88 (62620)
 
 Site Number: 0204309906
 Site Name: CONVEYANCE CHAN AT RAMSGATE LN NR GREAT BRIDGE, VA
@@ -162,7 +191,13 @@ Agency: USGS
 Latitude 36°41'26.32",   Longitude 76°12'44.34"   NAD83
 Chesapeake City, Virginia, Hydrologic Unit 03010205
 (Could not get daily data for this site.  It had the flow rate data though.)
-
+Available Parameters (Parameter ID):
+  - Temperature, water (0010)
+	- Discharge	(00060)
+	- Gage height, Left Culvert [Left culvert](00065)
+	- Specific cond at 25C (00095)
+	- Turbidity, Form Neph (63680)
+	- Autosampler count (99234)
 
 Site Number: 0204300267
 Site Name: BEGGARS BRIDGE CREEK NEAR DAWLEY CORNERS, VA
@@ -171,7 +206,11 @@ Agency: USGS
 Latitude 36°40'47.3",   Longitude 75°59'02.4"   NAD83
 Virginia Beach City, Virginia, Hydrologic Unit 03010205
 Datum of gage: 0.00 feet above   NAVD88.
-
+Available Parameters (Parameter ID):
+  - Wind Speed (00035)
+  - Wind Direction (00036)
+  - Precipitation (00045)
+  - Elevation, ocean/est, NAVD88 (62620)
 
 2019-04-02
 --------------
