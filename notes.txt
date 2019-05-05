@@ -625,3 +625,22 @@ $ conda create --name tf2
 %load_ext tensorboard.notebook
 %tensorboard --logdir logs
 
+2019-05-03
+---------
+
+Took some pictures of a USGS station near my home.
+
+2019-05-04
+---------
+
+Try as I might I could not get the a model trained using a dataset.  I will punt
+and use pandas to read the data and do a quicck and dirty regressor.
+
+
+2019-05-05
+---------
+
+Working on the ML-try-002 notebook
+
+
+
