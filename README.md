@@ -80,3 +80,12 @@ This is an overview of the git repo filesystem
 # Usage
 Given the model, a lat, long and precipitation for the day, the model can predict was the high water level will be.  The prediction given the model can be off by as much as a half of a foot so its not very precise.  However, given additional time to include more data this model could be much better.
 
+# Appendix
+Because it was an enjoyable part of the project, here are some pictures of the greenstream data in buckets and the dataprep workflow.
+
+![GSVB GCP Storage root Picture](/pics/gs-buckets.png?raw=true "Figure 6 - GSVB GCP Storage root Picture")
+![GSVB GCP Storage one sensor folder Picture](/pics/gs-one-sensor.png?raw=true "Figure 6 - GSVB GCP Storage one sensor folder Picture")
+![GSVB GCP dataprep Picture 1](/pics/dataprep-screenshot-01.png?raw=true "Figure 7 - GSVB GCP Dataprep Picture 1")
+![GSVB GCP dataprep Picture 2](/pics/dataprep-screenshot-02.png?raw=true "Figure 8 - GSVB GCP Dataprep Picture 2")
+
+
