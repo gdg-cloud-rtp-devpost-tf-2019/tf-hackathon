@@ -642,5 +642,8 @@ and use pandas to read the data and do a quicck and dirty regressor.
 
 Working on the ML-try-002 notebook
 
+Made a few variants to the ML.  The try-003 still does not work though.
+
+
 
 
