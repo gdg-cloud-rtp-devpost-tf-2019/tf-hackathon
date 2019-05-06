@@ -1,6 +1,7 @@
 # tf-hackathon
 This repo is for the GDG Cloud RTP submission for the Powered by TensorFlow 2.0 Hackathon
 
+
 # Project Goal
 One of our project members has a company which helps municipalities with early flood detection.  This company [Greenstream](http://greenstream.maxxpotential.org/) uses Google Cloud Platform (GCP) as the basis of their IoT system.  Greenstream deploys sensors which are solar powered water level meters.  The readings are similar to the existing USGS sensors.  Where as the GS sensors report data every six minutes, the USGS sensors seem to report on a daily basis.  This is implied based upon the public data.  Perhaps its more often, but I'm going based upon the available data reports.  
 
@@ -89,3 +90,4 @@ Because it was an enjoyable part of the project, here are some pictures of the g
 ![GSVB GCP dataprep Picture 2](/pics/dataprep-screenshot-02.png?raw=true "Figure 8 - GSVB GCP Dataprep Picture 2")
 
 
+A video of the project is [here.](https://youtu.be/OXKUhyBzzu8) 
