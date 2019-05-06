@@ -53,17 +53,17 @@ Ideally we would like to have additional data sources added.  Below are the goal
 The area of interest and the two sets of sensor locations are shown in Figure 1.  Note this image was taken from plot-station.ipynb script.
 
 
-![USGS GSVB Sensor Picture](/pics/usgs-gsvb-locations.png?raw=true "Figure 1 - USGS GSVB Sensor Locations")
+![USGS GSVB Sensors Picture](/pics/usgs-gsvb-locations.png?raw=true "Figure 1 - USGS GSVB Sensor Locations")
 
 A USGS station near RTP is shown in Figures 2,3, and 4
 
-![USGS GSVB Sensor Picture](/pics/a_usgs_site_no1.jpeg?raw=true "Figure 2 - USGS box one")
-![USGS GSVB Sensor Picture](/pics/a_usgs_site_no2.jpeg?raw=true "Figure 3 - USGS box two")
-![USGS GSVB Sensor Picture](/pics/a_usgs_site_no3.jpeg?raw=true "Figure 4 - USGS box two closeup")
+![USGS Sensor Picture](/pics/a_usgs_site_no1.jpeg?raw=true "Figure 2 - USGS box one")
+![USGS Sensor Picture](/pics/a_usgs_site_no2.jpeg?raw=true "Figure 3 - USGS box two")
+![USGS Sensor Picture](/pics/a_usgs_site_no3.jpeg?raw=true "Figure 4 - USGS box two closeup")
 
 A greenstream station is shown in Figures 5
 
-[USGS GSVB Sensor Picture](/pics/gs-sensor.jpg?raw=true "Figure 5 - USGS box two closeup")
+[GSVB Sensor Picture](/pics/gs_sensor.jpg?raw=true "Figure 5 - Greenstream sensor")
 
 
 # Filestem Overview
