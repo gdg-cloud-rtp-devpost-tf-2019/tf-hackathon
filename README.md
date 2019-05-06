@@ -63,7 +63,7 @@ A USGS station near RTP is shown in Figures 2,3, and 4
 
 A greenstream station is shown in Figures 5
 
-[GSVB Sensor Picture](/pics/gs_sensor.jpg?raw=true "Figure 5 - Greenstream sensor")
+[GSVB Sensor Picture](/pics/gs_sensor.jpeg?raw=true "Figure 5 - Greenstream sensor")
 
 
 # Filestem Overview
