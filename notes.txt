@@ -646,4 +646,7 @@ Made a few variants to the ML.  The try-003 still does not work though.
 
 
 
-
+2019-05-08
+----------
+collab version
+https://colab.research.google.com/drive/149l4DcZ0-qTFDB8NWr0zbcclc-gvHyln
